@@ -1,0 +1,52 @@
+name: Refresh Actor index
+
+on:
+  schedule:
+    - cron: "17 6 * * 1"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: refresh-index
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Write UTC check timestamp
+        if: always()
+        run: date -u '+%Y-%m-%dT%H:%M:%SZ' > last-checked.txt
+
+      - name: Sanity-check public Store endpoint (no token)
+        run: |
+          curl -fsS "https://api.apify.com/v2/store?username=plym-actor-factory&limit=1" \
+            | python -c "import sys,json; d=json.load(sys.stdin)['data']; assert d['total']>0, d; print('store total:', d['total'])"
+
+      - name: Generate public index
+        run: python generate.py --out . --base-url "https://plym82.github.io/apify-official-register-monitors/"
+
+      - name: Commit and push refresh
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md index.html actors.json sitemap.xml robots.txt last-checked.txt
+          git commit -m "chore: refresh Actor index from public Apify Store" || true
+          git push
+
+      - name: Keep refresh workflow enabled
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow enable refresh.yml --repo "$GITHUB_REPOSITORY"
