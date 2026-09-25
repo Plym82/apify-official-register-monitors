@@ -1,0 +1,948 @@
+{
+  "username": "plym-actor-factory",
+  "profile": "https://apify.com/plym-actor-factory",
+  "count": 41,
+  "actors": [
+    {
+      "name": "uk-charity-commission-portfolio-status-monitor",
+      "title": "UK Charity Commission Portfolio Status Monitor",
+      "url": "https://apify.com/plym-actor-factory/uk-charity-commission-portfolio-status-monitor",
+      "description": "Watch a list of England & Wales charity registration numbers and emit typed Registered/Removed/name/interim-manager events from the official Charity Commission Register API (user-supplied key) and/or OGL full-register extract. Not an HTML scrape; not ComplyTrack/CharityIQ. Not OSCR/CCNI.",
+      "categories": [
+        "AI",
+        "AUTOMATION",
+        "BUSINESS"
+      ],
+      "group": "United Kingdom",
+      "pricing": {
+        "model": "PAY_PER_EVENT",
+        "events": [
+          {
+            "event": "charity-status-event-delivered",
+            "title": "Charity status event delivered",
+            "priceUsd": 0.02,
+            "primary": true
+          }
+        ],
+        "startUsd": 5e-05
+      }
+    },
+    {
+      "name": "uk-companies-house-realtime-monitor",
+      "title": "UK Companies House Streaming Change Monitor",
+      "url": "https://apify.com/plym-actor-factory/uk-companies-house-realtime-monitor",
+      "description": "Watch UK companies for filings, officers, PSC, charges, insolvency and profile changes via the official Companies House Streaming API. Near-real-time scheduled catch-up with resumable timepoints, typed events, pay only for delivered unique changes ($0.015/event).",
+      "categories": [
+        "AI",
+        "AUTOMATION"
+      ],
+      "group": "United Kingdom",
+      "pricing": {
+        "model": "PAY_PER_EVENT",
+        "events": [
+          {
+            "event": "change-event-delivered",
+            "title": "Change event delivered",
+            "priceUsd": 0.015,
+            "primary": true
+          }
+        ],
+        "startUsd": 5e-05
+      }
+    },
+    {
+      "name": "uk-fca-frn-portfolio-status-monitor",
+      "title": "UK FCA FRN Portfolio Status Monitor",
+      "url": "https://apify.com/plym-actor-factory/uk-fca-frn-portfolio-status-monitor",
+      "description": "Watch a list of FCA Firm Reference Numbers and emit typed Authorised/Cancelled/Suspended/permissions/AR/disciplinary events from the official FCA Financial Services Register API (user-supplied portal key). Not an HTML scrape; not WatchDog/Distos.",
+      "categories": [
+        "AI",
+        "AUTOMATION",
+        "BUSINESS"
+      ],
+      "group": "United Kingdom",
+      "pricing": {
+        "model": "PAY_PER_EVENT",
+        "events": [
+          {
+            "event": "fca-frn-status-event-delivered",
+            "title": "FCA FRN status event delivered",
+            "priceUsd": 0.02,
+            "primary": true
+          }
+        ],
+        "startUsd": 5e-05
+      }
+    },
+    {
+      "name": "uk-fsa-appno-portfolio-monitor",
+      "title": "UK FSA AppNo Portfolio Status Monitor",
+      "url": "https://apify.com/plym-actor-factory/uk-fsa-appno-portfolio-monitor",
+      "description": "Watch FSA Approval Numbers (AppNo) and emit typed APPEARED/DROPPED/ACTIVITIES_CHANGED/AUTHORITY_CHANGED events from the official FSA Approved Food Establishments daily CSV (OGL v3). Not FHRS hygiene ratings; not FSA alerts/RASFF; not FSIS Est# twin; not HTML scrape; not unpaid supplier-audit SaaS.",
+      "categories": [],
+      "group": "United Kingdom",
+      "pricing": {
+        "model": "PAY_PER_EVENT",
+        "events": [
+          {
+            "event": "fsa-appno-status-event-delivered",
+            "title": "FSA AppNo status event delivered",
+            "priceUsd": 0.02,
+            "primary": true
+          }
+        ],
+        "startUsd": 5e-05
+      }
+    },
+    {
+      "name": "uk-gambling-commission-licence-portfolio-monitor",
+      "title": "UK Gambling Commission Licence Portfolio Status Monitor",
+      "url": "https://apify.com/plym-actor-factory/uk-gambling-commission-licence-portfolio-monitor",
+      "description": "Watch Gambling Commission Account Numbers and/or Licence Numbers and emit typed Active/Suspended/Revoked/Surrendered/Lapsed events from the official OGL business-licence-register-licences.csv snapshot. Not HTML scrape; not LiSense/iGregulator; not MGA Malta.",
+      "categories": [
+        "AI",
+        "AUTOMATION",
+        "BUSINESS"
+      ],
+      "group": "United Kingdom",
+      "pricing": {
+        "model": "PAY_PER_EVENT",
+        "events": [
+          {
+            "event": "ukgc-licence-status-event-delivered",
+            "title": "UKGC licence status event delivered",
+            "priceUsd": 0.02,
+            "primary": true
+          }
+        ],
+        "startUsd": 5e-05
+      }
+    },
+    {
+      "name": "uk-planning-trade-lead-radar",
+      "title": "UK Multi-Trade Planning Lead Radar",
+      "url": "https://apify.com/plym-actor-factory/uk-planning-trade-lead-radar",
+      "description": "Match new England planning applications to multi-trade taxonomy (solar/PV/battery, roof, scaffold, extension/loft, HVAC, glazing) + optional postcode radius via planning.data.gov.uk (OGL). Pay only for unique trade-matched leads ($0.02). Scheduled catch-up — not real-time streaming.",
+      "categories": [
+        "AUTOMATION",
+        "LEAD_GENERATION",
+        "REAL_ESTATE"
+      ],
+      "group": "United Kingdom",
+      "pricing": {
+        "model": "PAY_PER_EVENT",
+        "events": [
+          {
+            "event": "trade-lead-delivered",
+            "title": "Trade lead delivered",
+            "priceUsd": 0.02,
+            "primary": true
+          }
+        ],
+        "startUsd": 5e-05
+      }
+    },
+    {
+      "name": "uk-ofsted-urn-portfolio-inspection-monitor",
+      "title": "UK Ofsted URN Portfolio Inspection Outcome Event Monitor",
+      "url": "https://apify.com/plym-actor-factory/uk-ofsted-urn-portfolio-inspection-monitor",
+      "description": "Watch a book of England state-funded school URNs and emit typed inspection-outcome / overall-effectiveness / safeguarding-inclusion-curriculum standard events from the official Ofsted monthly MI CSV on GOV.UK. Not HTML scrape of reports.ofsted.gov.uk; not MATpulse/Observatory; not a nationwide dump.",
+      "categories": [
+        "AI",
+        "AUTOMATION",
+        "BUSINESS"
+      ],
+      "group": "United Kingdom",
+      "pricing": {
+        "model": "PAY_PER_EVENT",
+        "events": [
+          {
+            "event": "ofsted-inspection-outcome-event-delivered",
+            "title": "Ofsted inspection outcome event delivered",
+            "priceUsd": 0.02,
+            "primary": true
+          }
+        ],
+        "startUsd": 5e-05
+      }
+    },
+    {
+      "name": "uk-sanctions-list-counterparty-portfolio-watch",
+      "title": "UK Sanctions List Counterparty Designation Portfolio Watch",
+      "url": "https://apify.com/plym-actor-factory/uk-sanctions-list-counterparty-portfolio-watch",
+      "description": "Watch Unique IDs and/or normalised counterparty names and emit typed UKSL DESIGNATED / DELISTED / VARIATION events from the official FCDO UK Sanctions List CSV/XML. Not a multi-list OFAC+EU+UN screener; not HTML scrape; not ComplyAdvantage/OpenSanctions paid tiers.",
+      "categories": [
+        "AI",
+        "AUTOMATION",
+        "BUSINESS"
+      ],
+      "group": "United Kingdom",
+      "pricing": {
+        "model": "PAY_PER_EVENT",
+        "events": [
+          {
+            "event": "uksl-designation-event-delivered",
+            "title": "UKSL designation event delivered",
+            "priceUsd": 0.02,
+            "primary": true
+          }
+        ],
+        "startUsd": 5e-05
+      }
+    },
+    {
+      "name": "uk-sra-firm-portfolio-status-monitor",
+      "title": "UK SRA Firm Portfolio Status Monitor",
+      "url": "https://apify.com/plym-actor-factory/uk-sra-firm-portfolio-status-monitor",
+      "description": "Watch a list of SRA firm numbers and emit typed Authorised/Intervention/Closed/licence events from the official SRA Data Share API (user-supplied Azure APIM subscription key). Not an HTML scrape; not Reglo/SwiftCase.",
+      "categories": [
+        "AI",
+        "AUTOMATION",
+        "BUSINESS"
+      ],
+      "group": "United Kingdom",
+      "pricing": {
+        "model": "PAY_PER_EVENT",
+        "events": [
+          {
+            "event": "sra-firm-status-event-delivered",
+            "title": "SRA firm status event delivered",
+            "priceUsd": 0.02,
+            "primary": true
+          }
+        ],
+        "startUsd": 5e-05
+      }
+    },
+    {
+      "name": "czech-ares-ico-portfolio-monitor",
+      "title": "Czech ARES IČO Portfolio Status Monitor",
+      "url": "https://apify.com/plym-actor-factory/czech-ares-ico-portfolio-monitor",
+      "description": "Watch a list of Czech IČO numbers and emit typed AKTIVNI/ZANIKLY/name/seat/register-status events from free official ARES REST (ares.gov.cz). Not a Creditsafe/CRIBIS seat; not a nationwide dump.",
+      "categories": [
+        "AI",
+        "AUTOMATION",
+        "BUSINESS"
+      ],
+      "group": "European Union & wider Europe",
+      "pricing": {
+        "model": "PAY_PER_EVENT",
+        "events": [
+          {
+            "event": "ares-status-event-delivered",
+            "title": "ARES status event delivered",
+            "priceUsd": 0.02,
+            "primary": true
+          }
+        ],
+        "startUsd": 5e-05
+      }
+    },
+    {
+      "name": "eu-tr-org-portfolio-status-monitor",
+      "title": "EU TR Organisation ID Portfolio Status Event Monitor",
+      "url": "https://apify.com/plym-actor-factory/eu-tr-org-portfolio-status-monitor",
+      "description": "Watch Transparency Register identificationCodes and emit typed REMOVED / APPEARED / LAST_UPDATE_CHANGED / CATEGORY_CHANGED events from the official EU open-data XML snapshot. Not a full-register lobby dump; not LobbyFacts scrape; not HTML UI scrape.",
+      "categories": [
+        "AI",
+        "AUTOMATION",
+        "BUSINESS"
+      ],
+      "group": "European Union & wider Europe",
+      "pricing": {
+        "model": "PAY_PER_EVENT",
+        "events": [
+          {
+            "event": "eutr-org-status-event-delivered",
+            "title": "EU TR org status event delivered",
+            "priceUsd": 0.02,
+            "primary": true
+          }
+        ],
+        "startUsd": 5e-05
+      }
+    },
+    {
+      "name": "finland-prh-ytunnus-portfolio-monitor",
+      "title": "Finland PRH Y-tunnus Portfolio Status Monitor",
+      "url": "https://apify.com/plym-actor-factory/finland-prh-ytunnus-portfolio-monitor",
+      "description": "Watch a list of Finnish Y-tunnukset and emit typed Business-ID / trade-register / konkurssi / saneeraus / selvitystila / name events from free official PRH YTJ open data (avoindata.prh.fi). Not a Finder.fi dump; not Asiakastieto.",
+      "categories": [
+        "AI",
+        "AUTOMATION",
+        "BUSINESS"
+      ],
+      "group": "European Union & wider Europe",
+      "pricing": {
+        "model": "PAY_PER_EVENT",
+        "events": [
+          {
+            "event": "prh-status-event-delivered",
+            "title": "PRH status event delivered",
+            "priceUsd": 0.02,
+            "primary": true
+          }
+        ],
+        "startUsd": 5e-05
+      }
+    },
+    {
+      "name": "france-bodacc-siren-portfolio-monitor",
+      "title": "France BODACC SIREN Portfolio Event Monitor",
+      "url": "https://apify.com/plym-actor-factory/france-bodacc-siren-portfolio-monitor",
+      "description": "Watch a list of French SIRENs and emit typed BODACC gazette events — insolvency, modifications, radiations, cessions — from official DILA open data (Licence Ouverte). Not a nationwide BODACC dump and not a Pappers directory scrape.",
+      "categories": [
+        "AI",
+        "AUTOMATION",
+        "BUSINESS"
+      ],
+      "group": "European Union & wider Europe",
+      "pricing": {
+        "model": "PAY_PER_EVENT",
+        "events": [
+          {
+            "event": "bodacc-event-delivered",
+            "title": "BODACC event delivered",
+            "priceUsd": 0.02,
+            "primary": true
+          }
+        ],
+        "startUsd": 5e-05
+      }
+    },
+    {
+      "name": "netherlands-kvk-status-event-monitor",
+      "title": "Netherlands KvK Open-Data Status Event Monitor",
+      "url": "https://apify.com/plym-actor-factory/netherlands-kvk-status-event-monitor",
+      "description": "Watch a list of Dutch KVK numbers and emit typed active/insolvency status events from free official HVDS open data (BV/NV only). Not a Handelsregister dump. Not paid Basisprofiel or Mutatieservice.",
+      "categories": [
+        "AI",
+        "AUTOMATION",
+        "BUSINESS"
+      ],
+      "group": "European Union & wider Europe",
+      "pricing": {
+        "model": "PAY_PER_EVENT",
+        "events": [
+          {
+            "event": "kvk-status-event-delivered",
+            "title": "KvK status event delivered",
+            "priceUsd": 0.02,
+            "primary": true
+          }
+        ],
+        "startUsd": 5e-05
+      }
+    },
+    {
+      "name": "norway-brreg-orgnr-portfolio-monitor",
+      "title": "Norway Brønnøysundregistret Orgnr Portfolio Status Monitor",
+      "url": "https://apify.com/plym-actor-factory/norway-brreg-orgnr-portfolio-monitor",
+      "description": "Watch a list of Norwegian organisasjonsnumre and emit typed konkurs / under avvikling / slettet / name / address events from the free official Brreg Enhetsregisteret API (NLOD). Not a nationwide company dump.",
+      "categories": [
+        "AI",
+        "AUTOMATION",
+        "BUSINESS"
+      ],
+      "group": "European Union & wider Europe",
+      "pricing": {
+        "model": "PAY_PER_EVENT",
+        "events": [
+          {
+            "event": "brreg-status-event-delivered",
+            "title": "Brreg status event delivered",
+            "priceUsd": 0.02,
+            "primary": true
+          }
+        ],
+        "startUsd": 5e-05
+      }
+    },
+    {
+      "name": "spain-borme-nif-portfolio-monitor",
+      "title": "Spain BORME NIF Portfolio Event Monitor",
+      "url": "https://apify.com/plym-actor-factory/spain-borme-nif-portfolio-monitor",
+      "description": "Watch a list of Spanish NIFs (with company legal names) and emit typed BORME gazette events — appointments, capital, insolvency, dissolution, address/name changes — from official BOE open data. Not a nationwide BORME dump.",
+      "categories": [
+        "AI",
+        "AUTOMATION",
+        "BUSINESS"
+      ],
+      "group": "European Union & wider Europe",
+      "pricing": {
+        "model": "PAY_PER_EVENT",
+        "events": [
+          {
+            "event": "borme-event-delivered",
+            "title": "BORME event delivered",
+            "priceUsd": 0.02,
+            "primary": true
+          }
+        ],
+        "startUsd": 5e-05
+      }
+    },
+    {
+      "name": "switzerland-shab-uid-portfolio-monitor",
+      "title": "Switzerland SHAB UID Portfolio Event Monitor",
+      "url": "https://apify.com/plym-actor-factory/switzerland-shab-uid-portfolio-monitor",
+      "description": "Watch a list of Swiss CHE UIDs and emit typed SHAB / official gazette events — new registrations, modifications, deletions, bankruptcies — from Amtsblattportal. Not a Zefix directory dump and not a Moneyhouse scrape.",
+      "categories": [
+        "AI",
+        "AUTOMATION",
+        "BUSINESS"
+      ],
+      "group": "European Union & wider Europe",
+      "pricing": {
+        "model": "PAY_PER_EVENT",
+        "events": [
+          {
+            "event": "shab-event-delivered",
+            "title": "SHAB event delivered",
+            "priceUsd": 0.02,
+            "primary": true
+          }
+        ],
+        "startUsd": 5e-05
+      }
+    },
+    {
+      "name": "dach-supplier-kyb-packet",
+      "title": "DACH Supplier KYB Packet",
+      "url": "https://apify.com/plym-actor-factory/dach-supplier-kyb-packet",
+      "description": "For DE/AT/CH supplier domains: extract statutory Impressum identity, live official VIES VAT check, and official Insolvenzbekanntmachungen flag with mismatch events. Not a Northdata clone; not imprint-only. Pay only for unique verified KYB packets.",
+      "categories": [
+        "AI",
+        "AUTOMATION"
+      ],
+      "group": "Cross-border KYB & finance",
+      "pricing": {
+        "model": "PAY_PER_EVENT",
+        "events": [
+          {
+            "event": "kyb-packet-delivered",
+            "title": "KYB packet delivered",
+            "priceUsd": 0.02,
+            "primary": true
+          }
+        ],
+        "startUsd": 5e-05
+      }
+    },
+    {
+      "name": "gleif-lei-portfolio-watch",
+      "title": "GLEIF LEI Portfolio Status Watch",
+      "url": "https://apify.com/plym-actor-factory/gleif-lei-portfolio-watch",
+      "description": "Watch a list of LEIs and emit typed registration-status, entity, identity, and Level-2 relationship change events from the free official GLEIF Golden Copy / API. Not a one-shot LEI registry dump.",
+      "categories": [
+        "AI",
+        "AUTOMATION",
+        "BUSINESS"
+      ],
+      "group": "Cross-border KYB & finance",
+      "pricing": {
+        "model": "PAY_PER_EVENT",
+        "events": [
+          {
+            "event": "lei-change-event-delivered",
+            "title": "LEI change event delivered",
+            "priceUsd": 0.02,
+            "primary": true
+          }
+        ],
+        "startUsd": 5e-05
+      }
+    },
+    {
+      "name": "poland-supplier-kyb-packet",
+      "title": "Poland Supplier KYB Risk Packet",
+      "url": "https://apify.com/plym-actor-factory/poland-supplier-kyb-packet",
+      "description": "For Polish supplier NIPs (+ optional IBANs): official MF VAT White List statusVat + bank-account assignment with requestId proof, plus KRZ insolvency signal and typed mismatch events. Not a Northdata clone; not VAT-only. Pay only for unique verified KYB packets.",
+      "categories": [
+        "AI",
+        "AUTOMATION",
+        "BUSINESS"
+      ],
+      "group": "Cross-border KYB & finance",
+      "pricing": {
+        "model": "PAY_PER_EVENT",
+        "events": [
+          {
+            "event": "kyb-packet-delivered",
+            "title": "KYB packet delivered",
+            "priceUsd": 0.02,
+            "primary": true
+          }
+        ],
+        "startUsd": 5e-05
+      }
+    },
+    {
+      "name": "fmcsa-safer-risk-event-monitor",
+      "title": "FMCSA SAFER Risk Event Monitor",
+      "url": "https://apify.com/plym-actor-factory/fmcsa-safer-risk-event-monitor",
+      "description": "Watch a book of USDOT numbers and emit typed FMCSA risk events (insurance, OOS, safety rating, SMS BASIC alerts, authority, MCS-150 stale) from official public SAFER / census / Motus open data. Scheduled poll — not real-time. Pay only for unique delivered risk events.",
+      "categories": [
+        "AI",
+        "AUTOMATION",
+        "LEAD_GENERATION"
+      ],
+      "group": "United States – federal",
+      "pricing": {
+        "model": "PAY_PER_EVENT",
+        "events": [
+          {
+            "event": "risk-event-delivered",
+            "title": "Risk event delivered",
+            "priceUsd": 0.025,
+            "primary": true
+          }
+        ],
+        "startUsd": 5e-05
+      }
+    },
+    {
+      "name": "h1b-lca-employer-filing-watchlist",
+      "title": "H-1B LCA Employer New-Filing Watchlist (honest quarterly lag)",
+      "url": "https://apify.com/plym-actor-factory/h1b-lca-employer-filing-watchlist",
+      "description": "Watch a list of employers (names or FEINs) and emit typed LCA_NEW_FILING events when new cases appear in official DOL OFLC public disclosure Excel/open data. Honest quarterly lag — not a full H-1B salary dump, not myvisajobs HTML.",
+      "categories": [
+        "AI",
+        "AUTOMATION",
+        "JOBS"
+      ],
+      "group": "United States – federal",
+      "pricing": {
+        "model": "PAY_PER_EVENT",
+        "events": [
+          {
+            "event": "lca-filing-event-delivered",
+            "title": "LCA filing event delivered",
+            "priceUsd": 0.02,
+            "primary": true
+          }
+        ],
+        "startUsd": 5e-05
+      }
+    },
+    {
+      "name": "us-msha-mine-id-status-monitor",
+      "title": "MSHA Mine ID Portfolio Status Monitor",
+      "url": "https://apify.com/plym-actor-factory/us-msha-mine-id-status-monitor",
+      "description": "Watch MSHA Mine IDs and emit typed ACTIVE/STATUS_CHANGED/ABANDONED_OR_NONPRODUCING/CONTROLLER_CHANGED/OPERATOR_CHANGED/REAPPEARED events from the official MSHA Open Government Data Mines.zip register. Not a nationwide mine/violation dump; not OSHA twin; not unpaid mining SaaS.",
+      "categories": [],
+      "group": "United States – federal",
+      "pricing": {
+        "model": "PAY_PER_EVENT",
+        "events": [
+          {
+            "event": "msha-mine-status-event-delivered",
+            "title": "MSHA mine status event delivered",
+            "priceUsd": 0.02,
+            "primary": true
+          }
+        ],
+        "startUsd": 5e-05
+      }
+    },
+    {
+      "name": "us-ttb-alcohol-permit-status-monitor",
+      "title": "TTB Alcohol Permit Portfolio Status Monitor",
+      "url": "https://apify.com/plym-actor-factory/us-ttb-alcohol-permit-status-monitor",
+      "description": "Watch TTB Permit_Numbers and emit typed APPEARED/DROPPED/NEW_FLAG/INDUSTRY_CHANGED events from the official TTB FOIA List of Permittees JSON. Not state ABC retail twin; not COLA twin; not nationwide dump billed as rows; not unpaid beverage SaaS.",
+      "categories": [],
+      "group": "United States – federal",
+      "pricing": {
+        "model": "PAY_PER_EVENT",
+        "events": [
+          {
+            "event": "ttb-permit-status-event-delivered",
+            "title": "TTB permit status event delivered",
+            "priceUsd": 0.02,
+            "primary": true
+          }
+        ],
+        "startUsd": 5e-05
+      }
+    },
+    {
+      "name": "us-cms-ppef-npi-portfolio-enrollment-monitor",
+      "title": "US CMS Medicare PPEF NPI Portfolio Enrollment Status Monitor",
+      "url": "https://apify.com/plym-actor-factory/us-cms-ppef-npi-portfolio-enrollment-monitor",
+      "description": "Watch NPIs and emit typed ENROLLED/DROPPED/PROVIDER_TYPE_CHANGED/ENROLLMENT_ID_CHANGED events from the official CMS data.cms.gov Medicare Fee-For-Service Public Provider Enrollment (PPEF) extract. Not PECOS portal HTML scrape; not NPPES directory dump; not PEPM SaaS.",
+      "categories": [
+        "AI",
+        "AUTOMATION",
+        "BUSINESS"
+      ],
+      "group": "United States – federal",
+      "pricing": {
+        "model": "PAY_PER_EVENT",
+        "events": [
+          {
+            "event": "ppef-npi-enrollment-event-delivered",
+            "title": "PPEF NPI enrollment event delivered",
+            "priceUsd": 0.02,
+            "primary": true
+          }
+        ],
+        "startUsd": 5e-05
+      }
+    },
+    {
+      "name": "us-energy-star-pd-id-portfolio-monitor",
+      "title": "US ENERGY STAR Unique ID (pd_id) Portfolio Status Monitor",
+      "url": "https://apify.com/plym-actor-factory/us-energy-star-pd-id-portfolio-monitor",
+      "description": "Watch ENERGY STAR Unique IDs (pd_id) and emit typed APPEARED/DROPPED/MOST_EFFICIENT events from the official EPA ENERGY STAR Model Index Socrata. Not Safer Choice twin; not TRI facility twin; not flat dump billed as rows; not unpaid energy SaaS.",
+      "categories": [],
+      "group": "United States – federal",
+      "pricing": {
+        "model": "PAY_PER_EVENT",
+        "events": [
+          {
+            "event": "energy-star-status-event-delivered",
+            "title": "ENERGY STAR status event delivered",
+            "priceUsd": 0.02,
+            "primary": true
+          }
+        ],
+        "startUsd": 5e-05
+      }
+    },
+    {
+      "name": "us-epa-safer-choice-portfolio-monitor",
+      "title": "US EPA Safer Choice Portfolio Status Monitor",
+      "url": "https://apify.com/plym-actor-factory/us-epa-safer-choice-portfolio-monitor",
+      "description": "Watch Safer Choice products/companies (UPC/GTIN, company_name, product_url) and emit typed APPEARED/DROPPED/GOOD_STANDING events from the official EPA Envirofacts Safer Choice table. Not TRI facility twin; not ECHO compliance; not flat dump billed as rows; not unpaid ecolabel SaaS.",
+      "categories": [],
+      "group": "United States – federal",
+      "pricing": {
+        "model": "PAY_PER_EVENT",
+        "events": [
+          {
+            "event": "safer-choice-status-event-delivered",
+            "title": "Safer Choice status event delivered",
+            "priceUsd": 0.02,
+            "primary": true
+          }
+        ],
+        "startUsd": 5e-05
+      }
+    },
+    {
+      "name": "us-epa-sdwis-pwsid-portfolio-status-monitor",
+      "title": "US EPA SDWIS PWSID Portfolio Activity Status Monitor",
+      "url": "https://apify.com/plym-actor-factory/us-epa-sdwis-pwsid-portfolio-status-monitor",
+      "description": "Watch EPA Public Water System IDs (PWSIDs) and emit typed ACTIVE/ACTIVITY_CHANGED/DEACTIVATED/REACTIVATED events from the official EPA Envirofacts WATER_SYSTEM JSON API. Not TRI twin; not ECHO compliance; not nationwide water leads dump; not unpaid water SaaS.",
+      "categories": [],
+      "group": "United States – federal",
+      "pricing": {
+        "model": "PAY_PER_EVENT",
+        "events": [
+          {
+            "event": "sdwis-pws-status-event-delivered",
+            "title": "SDWIS PWS status event delivered",
+            "priceUsd": 0.02,
+            "primary": true
+          }
+        ],
+        "startUsd": 5e-05
+      }
+    },
+    {
+      "name": "us-epa-tri-facility-portfolio-status-monitor",
+      "title": "US EPA TRI Facility ID Portfolio Status Monitor",
+      "url": "https://apify.com/plym-actor-factory/us-epa-tri-facility-portfolio-status-monitor",
+      "description": "Watch TRI Facility IDs and emit typed APPEARED/DROPPED/NAME_CHANGED/PARENT_CHANGED/ADDRESS_CHANGED events from the official EPA Envirofacts tri_facility JSON API. Not ECHO compliance/violation scrape; not statewide TRI dump; not unpaid ESG SaaS.",
+      "categories": [
+        "AI",
+        "AUTOMATION",
+        "BUSINESS"
+      ],
+      "group": "United States – federal",
+      "pricing": {
+        "model": "PAY_PER_EVENT",
+        "events": [
+          {
+            "event": "tri-facility-status-event-delivered",
+            "title": "TRI facility status event delivered",
+            "priceUsd": 0.02,
+            "primary": true
+          }
+        ],
+        "startUsd": 5e-05
+      }
+    },
+    {
+      "name": "us-hrsa-health-center-site-monitor",
+      "title": "US HRSA Health Center / Look-Alike Site Status Monitor",
+      "url": "https://apify.com/plym-actor-factory/us-hrsa-health-center-site-monitor",
+      "description": "Watch Health Center Numbers and/or BPHC site keys and emit typed Active/Inactive/type/location-setting events from the official HRSA data.hrsa.gov Health Center Service Delivery and Look-Alike Sites CSV. Not EHBs portal scrape; not unpaid 340B OPAIS; not NPPES/PPEF twin.",
+      "categories": [
+        "AI",
+        "AUTOMATION",
+        "BUSINESS"
+      ],
+      "group": "United States – federal",
+      "pricing": {
+        "model": "PAY_PER_EVENT",
+        "events": [
+          {
+            "event": "hrsa-site-status-event-delivered",
+            "title": "HRSA site status event delivered",
+            "priceUsd": 0.02,
+            "primary": true
+          }
+        ],
+        "startUsd": 5e-05
+      }
+    },
+    {
+      "name": "us-lda-lobbying-filing-watchlist",
+      "title": "US LDA Lobbying Client & Registrant New-Filing Watchlist",
+      "url": "https://apify.com/plym-actor-factory/us-lda-lobbying-filing-watchlist",
+      "description": "Watch lobbying client and/or registrant firm names; poll the official Senate LDA REST API (lda.gov); emit typed events only for new filing_uuid values for your book. Not an LDA dump; not Quorum/FiscalNote; not HTML scrape.",
+      "categories": [
+        "AI",
+        "AUTOMATION",
+        "BUSINESS"
+      ],
+      "group": "United States – federal",
+      "pricing": {
+        "model": "PAY_PER_EVENT",
+        "events": [
+          {
+            "event": "lda-filing-event-delivered",
+            "title": "LDA filing event delivered",
+            "priceUsd": 0.02,
+            "primary": true
+          }
+        ],
+        "startUsd": 5e-05
+      }
+    },
+    {
+      "name": "us-fsis-mpi-est-status-monitor",
+      "title": "USDA FSIS MPI Est# Portfolio Status Monitor",
+      "url": "https://apify.com/plym-actor-factory/us-fsis-mpi-est-status-monitor",
+      "description": "Watch FSIS establishment numbers and emit typed APPEARED/DROPPED_OR_INACTIVE/ACTIVITIES_CHANGED/SIZE_CHANGED/GRANT_DATE_CHANGED events from the official USDA FSIS MPI Directory JSON API/CSV. Not nationwide leads dump; not recall feed; not HTML scrape.",
+      "categories": [
+        "AI",
+        "AUTOMATION",
+        "BUSINESS"
+      ],
+      "group": "United States – federal",
+      "pricing": {
+        "model": "PAY_PER_EVENT",
+        "events": [
+          {
+            "event": "fsis-mpi-est-status-event-delivered",
+            "title": "FSIS MPI Est# status event delivered",
+            "priceUsd": 0.02,
+            "primary": true
+          }
+        ],
+        "startUsd": 5e-05
+      }
+    },
+    {
+      "name": "us-contractor-license-risk-monitor",
+      "title": "California CSLB Contractor License Risk Event Monitor",
+      "url": "https://apify.com/plym-actor-factory/us-contractor-license-risk-monitor",
+      "description": "Watch a book of California CSLB contractor license numbers and emit typed risk events (LICENSE_*/BOND_*/WORKERS_COMP_*) from official CSLB Public Data Portal bulk files. Scheduled poll — not real-time. Pay only for unique delivered risk events. Multi-state expansion later.",
+      "categories": [
+        "AI",
+        "AUTOMATION"
+      ],
+      "group": "United States – state",
+      "pricing": {
+        "model": "PAY_PER_EVENT",
+        "events": [
+          {
+            "event": "license-risk-event-delivered",
+            "title": "License risk event delivered",
+            "priceUsd": 0.025,
+            "primary": true
+          }
+        ],
+        "startUsd": 5e-05
+      }
+    },
+    {
+      "name": "us-il-idfpr-license-portfolio-monitor",
+      "title": "Illinois IDFPR License Portfolio Status Monitor",
+      "url": "https://apify.com/plym-actor-factory/us-il-idfpr-license-portfolio-monitor",
+      "description": "Watch Illinois IDFPR license_number values and emit typed ACTIVE/status/expiry/discipline/reappeared events from official Illinois Open Data Socrata pzzh-kp68. Not a statewide dump billed as rows; not CA DCA/FL DBPR HTML twin; not unpaid credentialing SaaS.",
+      "categories": [],
+      "group": "United States – state",
+      "pricing": {
+        "model": "PAY_PER_EVENT",
+        "events": [
+          {
+            "event": "idfpr-license-status-event-delivered",
+            "title": "IDFPR license status event delivered",
+            "priceUsd": 0.02,
+            "primary": true
+          }
+        ],
+        "startUsd": 5e-05
+      }
+    },
+    {
+      "name": "canada-federal-corp-status-monitor",
+      "title": "Canada Federal Corporation Status Portfolio Monitor",
+      "url": "https://apify.com/plym-actor-factory/canada-federal-corp-status-monitor",
+      "description": "Watch federal corporation numbers / BNs and emit typed status & name change events from the free official ISED Corporations Canada API. Not Equifax. Not a nationwide dump.",
+      "categories": [
+        "AI",
+        "AUTOMATION",
+        "BUSINESS"
+      ],
+      "group": "Canada",
+      "pricing": {
+        "model": "PAY_PER_EVENT",
+        "events": [
+          {
+            "event": "ca-corp-status-event-delivered",
+            "title": "CA federal corp status event delivered",
+            "priceUsd": 0.02,
+            "primary": true
+          }
+        ],
+        "startUsd": 5e-05
+      }
+    },
+    {
+      "name": "ca-cfia-sfcr-licence-portfolio-monitor",
+      "title": "CFIA SFCR Food Licence Portfolio Status Monitor",
+      "url": "https://apify.com/plym-actor-factory/ca-cfia-sfcr-licence-portfolio-monitor",
+      "description": "Watch CFIA SFCR Food licence numbers and emit typed APPEARED/DROPPED/ESTABLISHMENTS_CHANGED/DBA_CHANGED events from the official CFIA Food Licence Registry CSV (Open Government Licence — Canada). Not FSA/FSIS twin; not FHRS/alerts; not unpaid supplier-audit SaaS; not a nationwide dump SKU.",
+      "categories": [],
+      "group": "Canada",
+      "pricing": {
+        "model": "PAY_PER_EVENT",
+        "events": [
+          {
+            "event": "cfia-sfcr-licence-status-event-delivered",
+            "title": "CFIA SFCR licence status event delivered",
+            "priceUsd": 0.02,
+            "primary": true
+          }
+        ],
+        "startUsd": 5e-05
+      }
+    },
+    {
+      "name": "ca-hc-dpd-din-portfolio-status-monitor",
+      "title": "Health Canada DPD DIN Portfolio Status Event Monitor",
+      "url": "https://apify.com/plym-actor-factory/ca-hc-dpd-din-portfolio-status-monitor",
+      "description": "Watch Drug Identification Numbers (DIN) and emit typed Marketed/Cancelled/Dormant/Approved/company events from the official Health Canada Drug Product Database (DPD) API. Not a flat DPD dump; not recalls; not openFDA; not unpaid formulary SaaS.",
+      "categories": [],
+      "group": "Canada",
+      "pricing": {
+        "model": "PAY_PER_EVENT",
+        "events": [
+          {
+            "event": "dpd-din-status-event-delivered",
+            "title": "DPD DIN status event delivered",
+            "priceUsd": 0.02,
+            "primary": true
+          }
+        ],
+        "startUsd": 5e-05
+      }
+    },
+    {
+      "name": "au-acma-licence-portfolio-monitor",
+      "title": "ACMA Radiocomms Licence Portfolio Status Monitor",
+      "url": "https://apify.com/plym-actor-factory/au-acma-licence-portfolio-monitor",
+      "description": "Watch ACMA radiocommunications LICENCE_NO values and emit typed Granted/status/expiry/category/client events from the official Spectrum Licensing LicenceSearchJSON API (optional RRL extracts). Not FCC ULS (US); not a nationwide RRL dump billed as rows; not unpaid spectrum SaaS scrape.",
+      "categories": [],
+      "group": "Australia",
+      "pricing": {
+        "model": "PAY_PER_EVENT",
+        "events": [
+          {
+            "event": "acma-licence-status-event-delivered",
+            "title": "ACMA licence status event delivered",
+            "priceUsd": 0.02,
+            "primary": true
+          }
+        ],
+        "startUsd": 5e-05
+      }
+    },
+    {
+      "name": "australia-abn-status-portfolio-monitor",
+      "title": "Australia ABN Status Portfolio Monitor",
+      "url": "https://apify.com/plym-actor-factory/australia-abn-status-portfolio-monitor",
+      "description": "Watch a list of Australian Business Numbers and emit typed ABN status / GST / entity name+type change events from free official ABR GUID web services. Not CreditorWatch. Not a nationwide ABN dump.",
+      "categories": [
+        "AI",
+        "AUTOMATION",
+        "BUSINESS"
+      ],
+      "group": "Australia",
+      "pricing": {
+        "model": "PAY_PER_EVENT",
+        "events": [
+          {
+            "event": "abn-status-event-delivered",
+            "title": "ABN status event delivered",
+            "priceUsd": 0.02,
+            "primary": true
+          }
+        ],
+        "startUsd": 5e-05
+      }
+    },
+    {
+      "name": "brazil-cnpj-situacao-change-monitor",
+      "title": "Brazil CNPJ Situação Change Monitor (honest monthly lag)",
+      "url": "https://apify.com/plym-actor-factory/brazil-cnpj-situacao-change-monitor",
+      "description": "Watch a list of Brazilian CNPJs and emit typed situação cadastral / material change events from Receita Federal dados abertos (or equivalent open-data mirror). Honest monthly official lag — not a CNPJ dump, not paid Serasa.",
+      "categories": [
+        "AI",
+        "AUTOMATION",
+        "LEAD_GENERATION"
+      ],
+      "group": "Latin America",
+      "pricing": {
+        "model": "PAY_PER_EVENT",
+        "events": [
+          {
+            "event": "situacao-change-delivered",
+            "title": "Situação change delivered",
+            "priceUsd": 0.02,
+            "primary": true
+          }
+        ],
+        "startUsd": 5e-05
+      }
+    },
+    {
+      "name": "lookalike-ct-brand-abuse-monitor",
+      "title": "Lookalike Domain CT Brand-Abuse Monitor",
+      "url": "https://apify.com/plym-actor-factory/lookalike-ct-brand-abuse-monitor",
+      "description": "Generate lookalikes (dnstwist-class, in-process) for brand apexes, join public CT via crt.sh, and emit LOOKALIKE_CERT_ISSUED events when a lookalike gets a new TLS cert. Not a TLS dump; not dnstwist-only.",
+      "categories": [
+        "AI",
+        "AUTOMATION",
+        "DEVELOPER_TOOLS"
+      ],
+      "group": "Global / security",
+      "pricing": {
+        "model": "PAY_PER_EVENT",
+        "events": [
+          {
+            "event": "lookalike-cert-event-delivered",
+            "title": "Lookalike cert event delivered",
+            "priceUsd": 0.02,
+            "primary": true
+          }
+        ],
+        "startUsd": 5e-05
+      }
+    }
+  ]
+}
