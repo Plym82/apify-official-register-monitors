@@ -1,8 +1,28 @@
 {
   "username": "plym-actor-factory",
   "profile": "https://apify.com/plym-actor-factory",
-  "count": 41,
+  "count": 51,
   "actors": [
+    {
+      "name": "uk-esfa-apar-ukprn-status-monitor",
+      "title": "ESFA APAR UKPRN Portfolio Status Monitor",
+      "url": "https://apify.com/plym-actor-factory/uk-esfa-apar-ukprn-status-monitor",
+      "description": "Watch UKPRNs and emit typed APAR APPEARED/DROPPED/STATUS_CHANGED/DELIVER_* events from the official DfE/ESFA Apprenticeship Provider and Assessment Register CSV. Not Ofsted URN twin; not Ofqual AO twin; not full UKRLP scrape; not unpaid training-SaaS.",
+      "categories": [],
+      "group": "United Kingdom",
+      "pricing": {
+        "model": "PAY_PER_EVENT",
+        "events": [
+          {
+            "event": "apar-ukprn-status-event-delivered",
+            "title": "APAR UKPRN status event delivered",
+            "priceUsd": 0.02,
+            "primary": true
+          }
+        ],
+        "startUsd": 5e-05
+      }
+    },
     {
       "name": "uk-charity-commission-portfolio-status-monitor",
       "title": "UK Charity Commission Portfolio Status Monitor",
@@ -482,6 +502,130 @@
       }
     },
     {
+      "name": "us-carb-lcfs-fuel-pathway-status-monitor",
+      "title": "CARB LCFS Fuel Pathway Portfolio Status Monitor",
+      "url": "https://apify.com/plym-actor-factory/us-carb-lcfs-fuel-pathway-status-monitor",
+      "description": "Watch CARB LCFS fuel pathway IDs and emit typed CERTIFIED/RETIRED/APPEARED/DROPPED/CI events from the official Current Fuel Pathways spreadsheet. Pay only for unique pathway status events on your book — not an ENERGY STAR or GHGRP twin billed as rows.",
+      "categories": [
+        "AI",
+        "AUTOMATION",
+        "BUSINESS"
+      ],
+      "group": "United States – federal",
+      "pricing": {
+        "model": "PAY_PER_EVENT",
+        "events": [
+          {
+            "event": "lcfs-pathway-status-event-delivered",
+            "title": "LCFS pathway status event delivered",
+            "priceUsd": 0.02,
+            "primary": true
+          }
+        ],
+        "startUsd": 5e-05
+      }
+    },
+    {
+      "name": "us-college-scorecard-operating-portfolio-monitor",
+      "title": "College Scorecard Operating Status Portfolio Monitor",
+      "url": "https://apify.com/plym-actor-factory/us-college-scorecard-operating-portfolio-monitor",
+      "description": "Watch IPEDS UNITIDs / OPEIDs and emit typed OPERATING_OPEN / OPERATING_CLOSED / OWNERSHIP_CHANGED events from the official US ED College Scorecard API. Not Scorecard outcomes dump; not Ofsted/Ofqual twin; not Title IV PEPS claim; not unpaid ed-SaaS.",
+      "categories": [],
+      "group": "United States – federal",
+      "pricing": {
+        "model": "PAY_PER_EVENT",
+        "events": [
+          {
+            "event": "scorecard-operating-status-event-delivered",
+            "title": "Scorecard operating status event delivered",
+            "priceUsd": 0.02,
+            "primary": true
+          }
+        ],
+        "startUsd": 5e-05
+      }
+    },
+    {
+      "name": "us-epa-ghgrp-facility-status-monitor",
+      "title": "EPA GHGRP Facility ID Reporting Status Monitor",
+      "url": "https://apify.com/plym-actor-factory/us-epa-ghgrp-facility-status-monitor",
+      "description": "Watch GHGRP facility_ids and emit typed STOPPED_REPORTING / RESUMED_REPORTING / YEAR_APPEARED / YEAR_DROPPED / PARENT_CHANGED events from EPA Envirofacts PUB_DIM_FACILITY. Not TRI twin; not ENERGY STAR/SDWIS/MSHA twin; not CO2e emissions dump.",
+      "categories": [],
+      "group": "United States – federal",
+      "pricing": {
+        "model": "PAY_PER_EVENT",
+        "events": [
+          {
+            "event": "ghgrp-facility-status-event-delivered",
+            "title": "GHGRP facility status event delivered",
+            "priceUsd": 0.02,
+            "primary": true
+          }
+        ],
+        "startUsd": 5e-05
+      }
+    },
+    {
+      "name": "us-epa-ppis-registration-number-status-monitor",
+      "title": "EPA PPIS Registration Number Status Monitor",
+      "url": "https://apify.com/plym-actor-factory/us-epa-ppis-registration-number-status-monitor",
+      "description": "Watch EPA pesticide Registration Numbers and emit typed ACTIVE/CANCELLED/APPEARED/DROPPED events from the official weekly PPIS XML zip. Not Safer Choice twin; not TSCA Inventory twin; not TRI twin; not a national PPIS dump billed as rows.",
+      "categories": [],
+      "group": "United States – federal",
+      "pricing": {
+        "model": "PAY_PER_EVENT",
+        "events": [
+          {
+            "event": "ppis-registration-status-event-delivered",
+            "title": "PPIS registration status event delivered",
+            "priceUsd": 0.02,
+            "primary": true
+          }
+        ],
+        "startUsd": 5e-05
+      }
+    },
+    {
+      "name": "us-epa-tsca-inventory-casrn-status-monitor",
+      "title": "EPA TSCA Inventory CASRN Activity Status Monitor",
+      "url": "https://apify.com/plym-actor-factory/us-epa-tsca-inventory-casrn-status-monitor",
+      "description": "Watch CASRNs and emit typed ACTIVITY_ACTIVE/INACTIVE, FLAG_CHANGED, APPEARED, DROPPED events from the official EPA non-CBI TSCA Inventory CSV zip. Not TRI twin; not Safer Choice twin; not CDR site screener; not REACH SVHC twin.",
+      "categories": [],
+      "group": "United States – federal",
+      "pricing": {
+        "model": "PAY_PER_EVENT",
+        "events": [
+          {
+            "event": "tsca-casrn-status-event-delivered",
+            "title": "TSCA CASRN status event delivered",
+            "priceUsd": 0.02,
+            "primary": true
+          }
+        ],
+        "startUsd": 5e-05
+      }
+    },
+    {
+      "name": "us-fda-accessgudid-di-status-monitor",
+      "title": "FDA AccessGUDID DI Commercial Distribution Status Monitor",
+      "url": "https://apify.com/plym-actor-factory/us-fda-accessgudid-di-status-monitor",
+      "description": "Watch Primary Device Identifiers and emit typed DISTRIBUTION_STATUS_CHANGED / RECORD_STATUS_CHANGED / APPEARED / DROPPED events from NLM AccessGUDID. Not PPEF twin; not HC DPD twin; not 510(k) clearance twin; not openFDA recall twin.",
+      "categories": [],
+      "group": "United States – federal",
+      "pricing": {
+        "model": "PAY_PER_EVENT",
+        "events": [
+          {
+            "event": "gudid-di-status-event-delivered",
+            "title": "GUDID DI status event delivered",
+            "priceUsd": 0.02,
+            "primary": true
+          }
+        ],
+        "startUsd": 5e-05
+      }
+    },
+    {
       "name": "fmcsa-safer-risk-event-monitor",
       "title": "FMCSA Carrier Monitoring: Insurance, Authority & OOS Alerts",
       "url": "https://apify.com/plym-actor-factory/fmcsa-safer-risk-event-monitor",
@@ -770,6 +914,30 @@
       }
     },
     {
+      "name": "us-usda-snap-record-id-authorization-status-monitor",
+      "title": "USDA SNAP Record_ID Authorization Status Monitor",
+      "url": "https://apify.com/plym-actor-factory/us-usda-snap-record-id-authorization-status-monitor",
+      "description": "Watch USDA SNAP retailer Record_IDs and emit typed AUTHORIZED/ENDED/APPEARED/DROPPED events from the official FNS SNAP ArcGIS FeatureServer. Pay only for unique authorization status events on your book — not a SNAP leads dump billed as rows.",
+      "categories": [
+        "AI",
+        "AUTOMATION",
+        "BUSINESS"
+      ],
+      "group": "United States – federal",
+      "pricing": {
+        "model": "PAY_PER_EVENT",
+        "events": [
+          {
+            "event": "snap-authorization-status-event-delivered",
+            "title": "SNAP authorization status event delivered",
+            "priceUsd": 0.02,
+            "primary": true
+          }
+        ],
+        "startUsd": 5e-05
+      }
+    },
+    {
       "name": "us-contractor-license-risk-monitor",
       "title": "California CSLB Contractor License Risk Event Monitor",
       "url": "https://apify.com/plym-actor-factory/us-contractor-license-risk-monitor",
@@ -833,6 +1001,30 @@
           {
             "event": "ca-corp-status-event-delivered",
             "title": "CA federal corp status event delivered",
+            "priceUsd": 0.02,
+            "primary": true
+          }
+        ],
+        "startUsd": 5e-05
+      }
+    },
+    {
+      "name": "ca-pmra-registration-number-portfolio-status-monitor",
+      "title": "Canada PMRA PCP Registration Number Status Monitor",
+      "url": "https://apify.com/plym-actor-factory/ca-pmra-registration-number-portfolio-status-monitor",
+      "description": "Watch Canada PMRA PCP Registration Numbers; emit FULL_REGISTRATION/CANCELLED/APPEARED/DROPPED/STATUS_CHANGED/EXPIRY_CHANGED from official product extract CSV. PPE on unique events — not EPA PPIS / HC DPD / CFIA SFCR twin billed as rows.",
+      "categories": [
+        "AI",
+        "AUTOMATION",
+        "BUSINESS"
+      ],
+      "group": "Canada",
+      "pricing": {
+        "model": "PAY_PER_EVENT",
+        "events": [
+          {
+            "event": "pmra-registration-status-event-delivered",
+            "title": "PMRA registration status event delivered",
             "priceUsd": 0.02,
             "primary": true
           }
@@ -929,6 +1121,30 @@
           {
             "event": "abn-status-event-delivered",
             "title": "ABN status event delivered",
+            "priceUsd": 0.02,
+            "primary": true
+          }
+        ],
+        "startUsd": 5e-05
+      }
+    },
+    {
+      "name": "au-apvma-product-number-portfolio-status-monitor",
+      "title": "Australia APVMA Product No Portfolio Status Monitor",
+      "url": "https://apify.com/plym-actor-factory/au-apvma-product-number-portfolio-status-monitor",
+      "description": "Watch Australia APVMA Product Numbers (pcode) and emit typed REGISTERED/APPROVED/APPEARED/DROPPED/REGCODE_CHANGED/EXPIRY_CHANGED events from data.gov.au PUBCRIS product.csv. Not EPA PPIS/PMRA/ACMA/ABN twin; not a national dump billed as rows.",
+      "categories": [
+        "AI",
+        "AUTOMATION",
+        "BUSINESS"
+      ],
+      "group": "Australia",
+      "pricing": {
+        "model": "PAY_PER_EVENT",
+        "events": [
+          {
+            "event": "apvma-product-status-event-delivered",
+            "title": "APVMA product status event delivered",
             "priceUsd": 0.02,
             "primary": true
           }

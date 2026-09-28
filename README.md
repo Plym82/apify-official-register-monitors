@@ -4,19 +4,19 @@ Pay-per-event [Apify](https://apify.com) Actors that **watch a portfolio of iden
 
 Built for compliance, KYB/KYC, supplier-risk, credit, procurement, legal and data teams who need to know *when something changes* for the entities they care about – run on a schedule, pipe results to webhooks, Slack, sheets or your own systems via the Apify API, or call them from AI agents (MCP).
 
-**41 public Actors** · Browse all on the Apify Store: [apify.com/plym-actor-factory](https://apify.com/plym-actor-factory)
+**51 public Actors** · Browse all on the Apify Store: [apify.com/plym-actor-factory](https://apify.com/plym-actor-factory)
 
 Prices are per delivered event in USD, plus a tiny Apify *Actor start* fee (typically $0.00005 per GB of memory). Always check the Store page for current pricing.
 
 ## Contents
 
-- [United Kingdom](#united-kingdom) (9)
+- [United Kingdom](#united-kingdom) (10)
 - [European Union & wider Europe](#european-union--wider-europe) (8)
 - [Cross-border KYB & finance](#cross-border-kyb--finance) (3)
-- [United States – federal](#united-states--federal) (12)
+- [United States – federal](#united-states--federal) (19)
 - [United States – state](#united-states--state) (2)
-- [Canada](#canada) (3)
-- [Australia](#australia) (2)
+- [Canada](#canada) (4)
+- [Australia](#australia) (3)
 - [Latin America](#latin-america) (1)
 - [Global / security](#global--security) (1)
 
@@ -24,6 +24,7 @@ Prices are per delivered event in USD, plus a tiny Apify *Actor start* fee (typi
 
 | Actor | Use case | Price |
 |---|---|---|
+| [ESFA APAR UKPRN Portfolio Status Monitor](https://apify.com/plym-actor-factory/uk-esfa-apar-ukprn-status-monitor) | Watch UKPRNs and emit typed APAR APPEARED/DROPPED/STATUS_CHANGED/DELIVER_* events from the official DfE/ESFA Apprenticeship Provider and Assessment Register CSV. | $0.02 per event |
 | [UK Charity Commission Portfolio Status Monitor](https://apify.com/plym-actor-factory/uk-charity-commission-portfolio-status-monitor) | Watch a list of England & Wales charity registration numbers and emit typed Registered/Removed/name/interim-manager events from the official Charity Commission Register API (user-supplied key)… | $0.02 per event |
 | [UK Companies House Streaming Change Monitor](https://apify.com/plym-actor-factory/uk-companies-house-realtime-monitor) | Companies House change alerts for credit control, KYB and compliance teams: insolvency cases, officer/director and PSC changes, new or satisfied charges, filings and status changes for your company… | $0.015 per event |
 | [UK FCA Register Firm Status Monitor (FRN Watchlist)](https://apify.com/plym-actor-factory/uk-fca-frn-portfolio-status-monitor) | FCA Register monitoring for principal firms, partnership and third-party-risk teams: watch FRNs and get events when a firm is cancelled or suspended, permissions change, Appointed Representatives… | $0.02 per event |
@@ -59,6 +60,12 @@ Prices are per delivered event in USD, plus a tiny Apify *Actor start* fee (typi
 
 | Actor | Use case | Price |
 |---|---|---|
+| [CARB LCFS Fuel Pathway Portfolio Status Monitor](https://apify.com/plym-actor-factory/us-carb-lcfs-fuel-pathway-status-monitor) | Watch CARB LCFS fuel pathway IDs and emit typed CERTIFIED/RETIRED/APPEARED/DROPPED/CI events from the official Current Fuel Pathways spreadsheet. | $0.02 per event |
+| [College Scorecard Operating Status Portfolio Monitor](https://apify.com/plym-actor-factory/us-college-scorecard-operating-portfolio-monitor) | Watch IPEDS UNITIDs / OPEIDs and emit typed OPERATING_OPEN / OPERATING_CLOSED / OWNERSHIP_CHANGED events from the official US ED College Scorecard API. | $0.02 per event |
+| [EPA GHGRP Facility ID Reporting Status Monitor](https://apify.com/plym-actor-factory/us-epa-ghgrp-facility-status-monitor) | Watch GHGRP facility_ids and emit typed STOPPED_REPORTING / RESUMED_REPORTING / YEAR_APPEARED / YEAR_DROPPED / PARENT_CHANGED events from EPA Envirofacts PUB_DIM_FACILITY. | $0.02 per event |
+| [EPA PPIS Registration Number Status Monitor](https://apify.com/plym-actor-factory/us-epa-ppis-registration-number-status-monitor) | Watch EPA pesticide Registration Numbers and emit typed ACTIVE/CANCELLED/APPEARED/DROPPED events from the official weekly PPIS XML zip. | $0.02 per event |
+| [EPA TSCA Inventory CASRN Activity Status Monitor](https://apify.com/plym-actor-factory/us-epa-tsca-inventory-casrn-status-monitor) | Watch CASRNs and emit typed ACTIVITY_ACTIVE/INACTIVE, FLAG_CHANGED, APPEARED, DROPPED events from the official EPA non-CBI TSCA Inventory CSV zip. | $0.02 per event |
+| [FDA AccessGUDID DI Commercial Distribution Status Monitor](https://apify.com/plym-actor-factory/us-fda-accessgudid-di-status-monitor) | Watch Primary Device Identifiers and emit typed DISTRIBUTION_STATUS_CHANGED / RECORD_STATUS_CHANGED / APPEARED / DROPPED events from NLM AccessGUDID. | $0.02 per event |
 | [FMCSA Carrier Monitoring: Insurance, Authority & OOS Alerts](https://apify.com/plym-actor-factory/fmcsa-safer-risk-event-monitor) | Carrier monitoring for freight brokers, 3PLs and shippers: watch your USDOT numbers and get events when FMCSA data shows an insurance cancellation, authority revoked or suspended, an out-of-service… | $0.025 per event |
 | [H-1B LCA Employer New-Filing Watchlist (honest quarterly lag)](https://apify.com/plym-actor-factory/h1b-lca-employer-filing-watchlist) | Watch a list of employers (names or FEINs) and emit typed LCA_NEW_FILING events when new cases appear in official DOL OFLC public disclosure Excel/open data. | $0.02 per event |
 | [MSHA Mine ID Portfolio Status Monitor](https://apify.com/plym-actor-factory/us-msha-mine-id-status-monitor) | Watch MSHA Mine IDs and emit typed ACTIVE/STATUS_CHANGED/ABANDONED_OR_NONPRODUCING/CONTROLLER_CHANGED/OPERATOR_CHANGED/REAPPEARED events from the official MSHA Open Government Data Mines.zip register. | $0.02 per event |
@@ -71,6 +78,7 @@ Prices are per delivered event in USD, plus a tiny Apify *Actor start* fee (typi
 | [US HRSA Health Center / Look-Alike Site Status Monitor](https://apify.com/plym-actor-factory/us-hrsa-health-center-site-monitor) | Watch Health Center Numbers and/or BPHC site keys and emit typed Active/Inactive/type/location-setting events from the official HRSA data.hrsa.gov Health Center Service Delivery and Look-Alike Sites… | $0.02 per event |
 | [US LDA Lobbying Client & Registrant New-Filing Watchlist](https://apify.com/plym-actor-factory/us-lda-lobbying-filing-watchlist) | Watch lobbying client and/or registrant firm names; poll the official Senate LDA REST API (lda.gov); emit typed events only for new filing_uuid values for your book. | $0.02 per event |
 | [USDA FSIS MPI Est# Portfolio Status Monitor](https://apify.com/plym-actor-factory/us-fsis-mpi-est-status-monitor) | Watch FSIS establishment numbers and emit typed APPEARED/DROPPED_OR_INACTIVE/ACTIVITIES_CHANGED/SIZE_CHANGED/GRANT_DATE_CHANGED events from the official USDA FSIS MPI Directory JSON API/CSV. | $0.02 per event |
+| [USDA SNAP Record_ID Authorization Status Monitor](https://apify.com/plym-actor-factory/us-usda-snap-record-id-authorization-status-monitor) | Watch USDA SNAP retailer Record_IDs and emit typed AUTHORIZED/ENDED/APPEARED/DROPPED events from the official FNS SNAP ArcGIS FeatureServer. | $0.02 per event |
 
 ## United States – state
 
@@ -84,6 +92,7 @@ Prices are per delivered event in USD, plus a tiny Apify *Actor start* fee (typi
 | Actor | Use case | Price |
 |---|---|---|
 | [Canada Federal Corporation Status Portfolio Monitor](https://apify.com/plym-actor-factory/canada-federal-corp-status-monitor) | Watch federal corporation numbers / BNs and emit typed status & name change events from the free official ISED Corporations Canada API. | $0.02 per event |
+| [Canada PMRA PCP Registration Number Status Monitor](https://apify.com/plym-actor-factory/ca-pmra-registration-number-portfolio-status-monitor) | Watch Canada PMRA PCP Registration Numbers; emit FULL_REGISTRATION/CANCELLED/APPEARED/DROPPED/STATUS_CHANGED/EXPIRY_CHANGED from official product extract CSV. | $0.02 per event |
 | [CFIA SFCR Food Licence Portfolio Status Monitor](https://apify.com/plym-actor-factory/ca-cfia-sfcr-licence-portfolio-monitor) | Watch CFIA SFCR Food licence numbers and emit typed APPEARED/DROPPED/ESTABLISHMENTS_CHANGED/DBA_CHANGED events from the official CFIA Food Licence Registry CSV (Open Government Licence — Canada). | $0.02 per event |
 | [Health Canada DPD DIN Portfolio Status Event Monitor](https://apify.com/plym-actor-factory/ca-hc-dpd-din-portfolio-status-monitor) | Watch Drug Identification Numbers (DIN) and emit typed Marketed/Cancelled/Dormant/Approved/company events from the official Health Canada Drug Product Database (DPD) API. | $0.02 per event |
 
@@ -93,6 +102,7 @@ Prices are per delivered event in USD, plus a tiny Apify *Actor start* fee (typi
 |---|---|---|
 | [ACMA Radiocomms Licence Portfolio Status Monitor](https://apify.com/plym-actor-factory/au-acma-licence-portfolio-monitor) | Watch ACMA radiocommunications LICENCE_NO values and emit typed Granted/status/expiry/category/client events from the official Spectrum Licensing LicenceSearchJSON API (optional RRL extracts). | $0.02 per event |
 | [Australia ABN Status Portfolio Monitor](https://apify.com/plym-actor-factory/australia-abn-status-portfolio-monitor) | Watch a list of Australian Business Numbers and emit typed ABN status / GST / entity name+type change events from free official ABR GUID web services. | $0.02 per event |
+| [Australia APVMA Product No Portfolio Status Monitor](https://apify.com/plym-actor-factory/au-apvma-product-number-portfolio-status-monitor) | Watch Australia APVMA Product Numbers (pcode) and emit typed REGISTERED/APPROVED/APPEARED/DROPPED/REGCODE_CHANGED/EXPIRY_CHANGED events from data.gov.au PUBCRIS product.csv. | $0.02 per event |
 
 ## Latin America
 
