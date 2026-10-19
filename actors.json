@@ -4,6 +4,29 @@
   "count": 92,
   "actors": [
     {
+      "name": "uk-companies-house-realtime-monitor",
+      "title": "Companies House Alerts: Insolvency, Director & PSC Changes",
+      "url": "https://apify.com/plym-actor-factory/uk-companies-house-realtime-monitor",
+      "description": "Get alerted when a UK company on your list changes at Companies House: insolvency cases, director and PSC (beneficial owner) changes, new or satisfied charges, filings and status changes. For credit control, KYB and compliance teams. Needs your free Companies House Streaming API key.",
+      "categories": [
+        "AI",
+        "AUTOMATION"
+      ],
+      "group": "United Kingdom",
+      "pricing": {
+        "model": "PAY_PER_EVENT",
+        "events": [
+          {
+            "event": "change-event-delivered",
+            "title": "Change event delivered",
+            "priceUsd": 0.015,
+            "primary": true
+          }
+        ],
+        "startUsd": 5e-05
+      }
+    },
+    {
       "name": "uk-scotland-care-inspectorate-cs-number-status-monitor",
       "title": "Scotland Care Inspectorate Care Service Portfolio Monitor",
       "url": "https://apify.com/plym-actor-factory/uk-scotland-care-inspectorate-cs-number-status-monitor",
@@ -41,29 +64,6 @@
             "event": "charity-status-event-delivered",
             "title": "Charity status event delivered",
             "priceUsd": 0.02,
-            "primary": true
-          }
-        ],
-        "startUsd": 5e-05
-      }
-    },
-    {
-      "name": "uk-companies-house-realtime-monitor",
-      "title": "UK Companies House Streaming Change Monitor",
-      "url": "https://apify.com/plym-actor-factory/uk-companies-house-realtime-monitor",
-      "description": "Companies House change alerts for credit control, KYB and compliance teams: insolvency cases, officer/director and PSC changes, new or satisfied charges, filings and status changes for your company watchlist, from the official Streaming API. Pay only per delivered change.",
-      "categories": [
-        "AI",
-        "AUTOMATION"
-      ],
-      "group": "United Kingdom",
-      "pricing": {
-        "model": "PAY_PER_EVENT",
-        "events": [
-          {
-            "event": "change-event-delivered",
-            "title": "Change event delivered",
-            "priceUsd": 0.015,
             "primary": true
           }
         ],
@@ -187,30 +187,6 @@
       }
     },
     {
-      "name": "uk-planning-trade-lead-radar",
-      "title": "UK Multi-Trade Planning Lead Radar",
-      "url": "https://apify.com/plym-actor-factory/uk-planning-trade-lead-radar",
-      "description": "Match new England planning applications to multi-trade taxonomy (solar/PV/battery, roof, scaffold, extension/loft, HVAC, glazing) + optional postcode radius via planning.data.gov.uk (OGL). Pay only for unique trade-matched leads ($0.02). Scheduled catch-up — not real-time streaming.",
-      "categories": [
-        "AUTOMATION",
-        "LEAD_GENERATION",
-        "REAL_ESTATE"
-      ],
-      "group": "United Kingdom",
-      "pricing": {
-        "model": "PAY_PER_EVENT",
-        "events": [
-          {
-            "event": "trade-lead-delivered",
-            "title": "Trade lead delivered",
-            "priceUsd": 0.02,
-            "primary": true
-          }
-        ],
-        "startUsd": 5e-05
-      }
-    },
-    {
       "name": "uk-ofsted-urn-portfolio-inspection-monitor",
       "title": "UK Ofsted URN Portfolio Inspection Outcome Event Monitor",
       "url": "https://apify.com/plym-actor-factory/uk-ofsted-urn-portfolio-inspection-monitor",
@@ -227,6 +203,30 @@
           {
             "event": "ofsted-inspection-outcome-event-delivered",
             "title": "Ofsted inspection outcome event delivered",
+            "priceUsd": 0.02,
+            "primary": true
+          }
+        ],
+        "startUsd": 5e-05
+      }
+    },
+    {
+      "name": "uk-planning-trade-lead-radar",
+      "title": "UK Planning Application Leads for Trades: Solar, Roofing, HVAC",
+      "url": "https://apify.com/plym-actor-factory/uk-planning-trade-lead-radar",
+      "description": "Find new England planning applications that need your trade: solar PV and batteries, roofing, scaffolding, extensions and lofts, HVAC and glazing. Filter by postcode radius and get address, description, decision status and council link per lead. Official planning.data.gov.uk data.",
+      "categories": [
+        "AUTOMATION",
+        "LEAD_GENERATION",
+        "REAL_ESTATE"
+      ],
+      "group": "United Kingdom",
+      "pricing": {
+        "model": "PAY_PER_EVENT",
+        "events": [
+          {
+            "event": "trade-lead-delivered",
+            "title": "Trade lead delivered",
             "priceUsd": 0.02,
             "primary": true
           }
@@ -452,9 +452,9 @@
     },
     {
       "name": "france-bodacc-siren-portfolio-monitor",
-      "title": "France Company Monitor: BODACC Insolvency & Change Alerts",
+      "title": "France BODACC Alerts by SIREN: Insolvency, Sale & Closure",
       "url": "https://apify.com/plym-actor-factory/france-bodacc-siren-portfolio-monitor",
-      "description": "Watch French companies by SIREN in the official BODACC gazette (DILA open data). Get an alert on insolvency proceedings, radiation, sale (cession) or modification. Pay only per delivered event.",
+      "description": "Get alerted when a French company on your list appears in the official BODACC gazette: insolvency proceedings (redressement, liquidation), closure (radiation), business sale (cession) or a registered change. Enter SIREN numbers and schedule daily. Official DILA open data, no API key.",
       "categories": [
         "AI",
         "AUTOMATION",
@@ -500,9 +500,9 @@
     },
     {
       "name": "netherlands-kvk-status-event-monitor",
-      "title": "Netherlands KvK Open-Data Status Event Monitor",
+      "title": "Netherlands KvK Alerts: Company Insolvency & Status Changes",
       "url": "https://apify.com/plym-actor-factory/netherlands-kvk-status-event-monitor",
-      "description": "Watch a list of Dutch KVK numbers and emit typed active/insolvency status events from free official HVDS open data (BV/NV only). Not a Handelsregister dump. Not paid Basisprofiel or Mutatieservice.",
+      "description": "Get alerted when a Dutch BV or NV on your list goes insolvent or changes active status, using free official KvK open data. Enter KvK numbers and schedule daily. For credit control and supplier risk. No API key.",
       "categories": [
         "AI",
         "AUTOMATION",
@@ -548,9 +548,9 @@
     },
     {
       "name": "spain-borme-nif-portfolio-monitor",
-      "title": "Spain Company Monitor: BORME Insolvency & Officer Alerts",
+      "title": "Spain BORME Alerts: Insolvency, Dissolution & Director Changes",
       "url": "https://apify.com/plym-actor-factory/spain-borme-nif-portfolio-monitor",
-      "description": "Watch Spanish companies by NIF and name in the official BORME gazette (BOE open data). Get an alert on insolvency, dissolution, director appointments, capital, name or address change. Pay only per delivered event.",
+      "description": "Get alerted when a Spanish company on your list appears in the official BORME gazette: insolvency (concurso), dissolution, director appointments and resignations, capital changes. Enter NIFs and company names and schedule daily. Official BOE open data, no API key.",
       "categories": [
         "AI",
         "AUTOMATION",
@@ -596,9 +596,9 @@
     },
     {
       "name": "dach-supplier-kyb-packet",
-      "title": "DACH Supplier KYB: VIES VAT Check, Impressum & Insolvency",
+      "title": "DACH Supplier Check: VAT (VIES), Company Identity & Insolvency",
       "url": "https://apify.com/plym-actor-factory/dach-supplier-kyb-packet",
-      "description": "Supplier verification and vendor onboarding for German, Austrian and Swiss suppliers: from a supplier website, one KYB packet with Impressum identity, a live VIES VAT check and a German insolvency-gazette flag, plus mismatch events. No API key. Not a Handelsregister extract.",
+      "description": "Check German, Austrian and Swiss suppliers from their website: legal name and address from the Impressum, a live EU VIES VAT number check and a German insolvency notice flag, in one row per supplier. For vendor onboarding and AP checks. No API key.",
       "categories": [
         "AI",
         "AUTOMATION"
@@ -957,6 +957,30 @@
       }
     },
     {
+      "name": "us-cms-ppef-npi-portfolio-enrollment-monitor",
+      "title": "Medicare Enrollment Alerts by NPI: Provider Enrolled or Dropped",
+      "url": "https://apify.com/plym-actor-factory/us-cms-ppef-npi-portfolio-enrollment-monitor",
+      "description": "Get alerted when a healthcare provider on your NPI list is dropped from or added to Medicare fee-for-service enrollment, or changes provider type or enrollment ID. For credentialing and payer-network teams. Official CMS data.cms.gov data, no API key.",
+      "categories": [
+        "AI",
+        "AUTOMATION",
+        "BUSINESS"
+      ],
+      "group": "United States – federal",
+      "pricing": {
+        "model": "PAY_PER_EVENT",
+        "events": [
+          {
+            "event": "ppef-npi-enrollment-event-delivered",
+            "title": "PPEF NPI enrollment event delivered",
+            "priceUsd": 0.02,
+            "primary": true
+          }
+        ],
+        "startUsd": 5e-05
+      }
+    },
+    {
       "name": "us-md-montgomery-housing-licensenumber-portfolio-status-monitor",
       "title": "Montgomery County MD Housing License Portfolio Status Monitor",
       "url": "https://apify.com/plym-actor-factory/us-md-montgomery-housing-licensenumber-portfolio-status-monitor",
@@ -1160,30 +1184,6 @@
           {
             "event": "ttb-permit-status-event-delivered",
             "title": "TTB permit status event delivered",
-            "priceUsd": 0.02,
-            "primary": true
-          }
-        ],
-        "startUsd": 5e-05
-      }
-    },
-    {
-      "name": "us-cms-ppef-npi-portfolio-enrollment-monitor",
-      "title": "US CMS Medicare PPEF NPI Portfolio Enrollment Status Monitor",
-      "url": "https://apify.com/plym-actor-factory/us-cms-ppef-npi-portfolio-enrollment-monitor",
-      "description": "Watch NPIs and emit typed ENROLLED/DROPPED/PROVIDER_TYPE_CHANGED/ENROLLMENT_ID_CHANGED events from the official CMS data.cms.gov Medicare Fee-For-Service Public Provider Enrollment (PPEF) extract. Not PECOS portal HTML scrape; not NPPES directory dump; not PEPM SaaS.",
-      "categories": [
-        "AI",
-        "AUTOMATION",
-        "BUSINESS"
-      ],
-      "group": "United States – federal",
-      "pricing": {
-        "model": "PAY_PER_EVENT",
-        "events": [
-          {
-            "event": "ppef-npi-enrollment-event-delivered",
-            "title": "PPEF NPI enrollment event delivered",
             "priceUsd": 0.02,
             "primary": true
           }
@@ -1499,9 +1499,9 @@
     },
     {
       "name": "us-wa-boa-cpa-credential-number-portfolio-status-monitor",
-      "title": "Washington CPA License Monitor: BoA Status Alerts",
+      "title": "Washington CPA License Alerts: Lapsed, Suspended or Revoked",
       "url": "https://apify.com/plym-actor-factory/us-wa-boa-cpa-credential-number-portfolio-status-monitor",
-      "description": "Watch named Washington State CPA licenses by Board of Accountancy credential number. Get an alert when a CPA lapses, retires, goes inactive, is suspended or revoked, or its board-order field changes. Official data.wa.gov data; pay only per delivered change.",
+      "description": "Get alerted when a Washington State CPA on your list lapses, retires, goes inactive, is suspended or revoked, or gets a board order. Enter Board of Accountancy credential numbers and schedule daily. Official data.wa.gov data, no API key.",
       "categories": [
         "AI",
         "AUTOMATION",
@@ -1826,9 +1826,9 @@
     },
     {
       "name": "australia-abn-status-portfolio-monitor",
-      "title": "Australia ABN Status Portfolio Monitor",
+      "title": "Australia ABN Alerts: Cancelled ABN, GST & Name Changes",
       "url": "https://apify.com/plym-actor-factory/australia-abn-status-portfolio-monitor",
-      "description": "Watch a list of Australian Business Numbers and emit typed ABN status / GST / entity name+type change events from free official ABR GUID web services. Not CreditorWatch. Not a nationwide ABN dump.",
+      "description": "Get alerted when an Australian business on your list has its ABN cancelled, its GST registration changed, or its entity name or type changed, from the official Australian Business Register (ABR). Enter ABNs and schedule daily. For AP and supplier checks.",
       "categories": [
         "AI",
         "AUTOMATION",
@@ -1969,9 +1969,9 @@
     },
     {
       "name": "brazil-cnpj-situacao-change-monitor",
-      "title": "Brazil CNPJ Situação Change Monitor (honest monthly lag)",
+      "title": "Brazil CNPJ Alerts: Status Changes (Baixada, Inapta, Suspensa)",
       "url": "https://apify.com/plym-actor-factory/brazil-cnpj-situacao-change-monitor",
-      "description": "Watch a list of Brazilian CNPJs and emit typed situação cadastral / material change events from Receita Federal dados abertos (or equivalent open-data mirror). Honest monthly official lag — not a CNPJ dump, not paid Serasa.",
+      "description": "Get alerted when a Brazilian company on your CNPJ list changes registration status (situação cadastral: ativa, baixada, inapta, suspensa) or other key Receita Federal fields. Uses official Receita Federal open data, updated monthly.",
       "categories": [
         "AI",
         "AUTOMATION",
