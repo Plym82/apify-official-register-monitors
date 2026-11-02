@@ -9,8 +9,8 @@
       "url": "https://apify.com/plym-actor-factory/uk-companies-house-realtime-monitor",
       "description": "Get alerted when a UK company on your list changes at Companies House: insolvency cases, director and PSC (beneficial owner) changes, new or satisfied charges, filings and status changes. For credit control, KYB and compliance teams. Needs your free Companies House Streaming API key.",
       "categories": [
-        "AI",
-        "AUTOMATION"
+        "AUTOMATION",
+        "BUSINESS"
       ],
       "group": "United Kingdom",
       "pricing": {
@@ -31,7 +31,10 @@
       "title": "Scotland Care Inspectorate Care Service Portfolio Monitor",
       "url": "https://apify.com/plym-actor-factory/uk-scotland-care-inspectorate-cs-number-status-monitor",
       "description": "Watch named Scottish care services by Care Inspectorate CS number; get an event on cancellation, provider change, grade downgrade, enforcement or upheld complaint, from official Care Inspectorate open data. Pay per delivered change - not a directory dump.",
-      "categories": [],
+      "categories": [
+        "AUTOMATION",
+        "BUSINESS"
+      ],
       "group": "United Kingdom",
       "pricing": {
         "model": "PAY_PER_EVENT",
@@ -52,7 +55,6 @@
       "url": "https://apify.com/plym-actor-factory/uk-charity-commission-portfolio-status-monitor",
       "description": "Watch England & Wales charity registration numbers on the official Charity Commission Register. Get an alert when a charity is removed, restored, renamed or picks up an interim manager. Pay only per delivered change.",
       "categories": [
-        "AI",
         "AUTOMATION",
         "BUSINESS"
       ],
@@ -76,7 +78,6 @@
       "url": "https://apify.com/plym-actor-factory/uk-ea-epr-industrial-permit-portfolio-status-monitor",
       "description": "Watch UK Environment Agency EPR industrial permit numbers (EPR/…). Get an alert when a permit appears, drops or the holder changes on the official register. Pay only per delivered change.",
       "categories": [
-        "AI",
         "AUTOMATION",
         "BUSINESS"
       ],
@@ -99,7 +100,10 @@
       "title": "UK ESFA APAR Provider Monitor (UKPRN Watchlist)",
       "url": "https://apify.com/plym-actor-factory/uk-esfa-apar-ukprn-status-monitor",
       "description": "Watch UKPRNs on the DfE/ESFA Apprenticeship Provider and Assessment Register for employers and EPAs: appear/leave, Status, and CanDeliverApprenticeships/Units changes. Not Ofsted URN or Ofqual AO twin; not a full UKRLP scrape.",
-      "categories": [],
+      "categories": [
+        "AUTOMATION",
+        "BUSINESS"
+      ],
       "group": "United Kingdom",
       "pricing": {
         "model": "PAY_PER_EVENT",
@@ -120,7 +124,6 @@
       "url": "https://apify.com/plym-actor-factory/uk-fca-frn-portfolio-status-monitor",
       "description": "FCA Register monitoring for principal firms, partnership and third-party-risk teams: watch FRNs and get events when a firm is cancelled or suspended, permissions change, Appointed Representatives are added or removed, or a disciplinary record appears. Official FCA Register API (free key).",
       "categories": [
-        "AI",
         "AUTOMATION",
         "BUSINESS"
       ],
@@ -140,11 +143,10 @@
     },
     {
       "name": "uk-fsa-appno-portfolio-monitor",
-      "title": "UK FSA AppNo Portfolio Status Monitor",
+      "title": "UK FSA Approved Food Establishment Monitor (AppNo)",
       "url": "https://apify.com/plym-actor-factory/uk-fsa-appno-portfolio-monitor",
       "description": "Watch FSA Approval Numbers (AppNo) and emit typed APPEARED/DROPPED/ACTIVITIES_CHANGED/AUTHORITY_CHANGED events from the official FSA Approved Food Establishments daily CSV (OGL v3). Not FHRS hygiene ratings; not FSA alerts/RASFF; not FSIS Est# twin; not HTML scrape; not unpaid supplier-audit SaaS.",
       "categories": [
-        "AI",
         "AUTOMATION",
         "BUSINESS"
       ],
@@ -168,7 +170,6 @@
       "url": "https://apify.com/plym-actor-factory/uk-hse-asbestos-licence-holder-portfolio-status-monitor",
       "description": "Watch UK HSE asbestos Licence Numbers against the official CONIAC disclosable licence-holder xlsx and emit typed APPEARED/DROPPED/ON_REGISTER/OFF_REGISTER (+ optional attribute) events. Not a national dump billed as rows; not VA contractor-lead twin.",
       "categories": [
-        "AI",
         "AUTOMATION",
         "BUSINESS"
       ],
@@ -192,7 +193,6 @@
       "url": "https://apify.com/plym-actor-factory/uk-ofsted-urn-portfolio-inspection-monitor",
       "description": "Watch a book of England state-funded school URNs and emit typed inspection-outcome / overall-effectiveness / safeguarding-inclusion-curriculum standard events from the official Ofsted monthly MI CSV on GOV.UK. Not HTML scrape of reports.ofsted.gov.uk; not MATpulse/Observatory; not a nationwide dump.",
       "categories": [
-        "AI",
         "AUTOMATION",
         "BUSINESS"
       ],
@@ -240,7 +240,6 @@
       "url": "https://apify.com/plym-actor-factory/uk-sanctions-list-counterparty-portfolio-watch",
       "description": "Track changes to the UK Sanctions List entries you are exposed to: watch FCDO UKSL Unique IDs and get DELISTED, VARIATION (regime, sanctions, names) and DESIGNATED events from the official UKSL file. For compliance teams holding frozen assets or acting under OFSI licences. No API key.",
       "categories": [
-        "AI",
         "AUTOMATION",
         "BUSINESS"
       ],
@@ -264,7 +263,6 @@
       "url": "https://apify.com/plym-actor-factory/uk-sra-firm-portfolio-status-monitor",
       "description": "Watch SRA firm numbers via the official SRA Data Share API. Get an alert when authorisation flips, an intervention lands, or a firm closes. Pay only per delivered change.",
       "categories": [
-        "AI",
         "AUTOMATION",
         "BUSINESS"
       ],
@@ -288,7 +286,6 @@
       "url": "https://apify.com/plym-actor-factory/uk-gambling-commission-licence-portfolio-monitor",
       "description": "Watch UK Gambling Commission account and licence numbers from the official OGL register. Get an alert when a licence flips Active/Suspended/Revoked/Surrendered/Lapsed. Pay only per delivered change.",
       "categories": [
-        "AI",
         "AUTOMATION",
         "BUSINESS"
       ],
@@ -312,7 +309,6 @@
       "url": "https://apify.com/plym-actor-factory/czech-ares-ico-portfolio-monitor",
       "description": "Watch Czech companies by IČO in the official ARES register. Get an alert when a company is dissolved (zaniklý), changes register status, name or registered seat. Pay only per delivered event.",
       "categories": [
-        "AI",
         "AUTOMATION",
         "BUSINESS"
       ],
@@ -332,11 +328,10 @@
     },
     {
       "name": "eu-ecb-mfi-riad-code-portfolio-status-monitor",
-      "title": "ECB MFI RIAD_CODE Portfolio Status Monitor",
+      "title": "ECB MFI List Monitor: RIAD Code Status Changes",
       "url": "https://apify.com/plym-actor-factory/eu-ecb-mfi-riad-code-portfolio-status-monitor",
       "description": "Watch ECB Monetary Financial Institution RIAD_CODEs; emit APPEARED/DROPPED/STATUS_CHANGED and attribute events from the official daily MFI population CSV. Not a FinCEN/FINTRAC MSB twin; not a full MFI dump billed as rows.",
       "categories": [
-        "AI",
         "AUTOMATION",
         "BUSINESS"
       ],
@@ -355,60 +350,11 @@
       }
     },
     {
-      "name": "eu-epc-sepa-sct-bic-portfolio-status-monitor",
-      "title": "EPC SEPA SCT BIC Portfolio Status Monitor",
-      "url": "https://apify.com/plym-actor-factory/eu-epc-sepa-sct-bic-portfolio-status-monitor",
-      "description": "Watch EPC SEPA Credit Transfer (SCT) participant BICs; emit APPEARED/DROPPED/LEAVING_CHANGED/OPTIONS_CHANGED and attribute events from the official EPC SCT Register of Participants CSV. Not a VOP twin; not an EBA PSD2 twin; not an IBAN validator; not a full SCT dump billed as rows.",
-      "categories": [
-        "AI",
-        "AUTOMATION",
-        "BUSINESS"
-      ],
-      "group": "European Union & wider Europe",
-      "pricing": {
-        "model": "PAY_PER_EVENT",
-        "events": [
-          {
-            "event": "epc-sepa-sct-status-event-delivered",
-            "title": "EPC SEPA SCT status event delivered",
-            "priceUsd": 0.02,
-            "primary": true
-          }
-        ],
-        "startUsd": 5e-05
-      }
-    },
-    {
-      "name": "eu-epc-sepa-vop-bic-portfolio-status-monitor",
-      "title": "EPC SEPA VOP BIC Portfolio Status Monitor",
-      "url": "https://apify.com/plym-actor-factory/eu-epc-sepa-vop-bic-portfolio-status-monitor",
-      "description": "Watch EPC SEPA Verification of Payee (VOP) participant BICs; emit APPEARED/DROPPED/STATUS_CHANGED/ROLE_CHANGED/LEAVING_CHANGED and attribute events from the official EPC VOP Register of Participants CSV. Not an EBA PSD2 twin; not an IBAN validator; not a full VOP dump billed as rows.",
-      "categories": [
-        "AI",
-        "AUTOMATION",
-        "BUSINESS"
-      ],
-      "group": "European Union & wider Europe",
-      "pricing": {
-        "model": "PAY_PER_EVENT",
-        "events": [
-          {
-            "event": "epc-sepa-vop-status-event-delivered",
-            "title": "EPC SEPA VOP status event delivered",
-            "priceUsd": 0.02,
-            "primary": true
-          }
-        ],
-        "startUsd": 5e-05
-      }
-    },
-    {
       "name": "eu-tr-org-portfolio-status-monitor",
-      "title": "EU TR Organisation ID Portfolio Status Event Monitor",
+      "title": "EU Transparency Register Monitor: Organisation ID Changes",
       "url": "https://apify.com/plym-actor-factory/eu-tr-org-portfolio-status-monitor",
       "description": "Watch Transparency Register identificationCodes and emit typed REMOVED / APPEARED / LAST_UPDATE_CHANGED / CATEGORY_CHANGED events from the official EU open-data XML snapshot. Not a full-register lobby dump; not LobbyFacts scrape; not HTML UI scrape.",
       "categories": [
-        "AI",
         "AUTOMATION",
         "BUSINESS"
       ],
@@ -432,7 +378,6 @@
       "url": "https://apify.com/plym-actor-factory/finland-prh-ytunnus-portfolio-monitor",
       "description": "Watch Finnish companies by Y-tunnus (Business ID) in official PRH/YTJ open data. Get an alert on bankruptcy, restructuring, liquidation, trade-register or name change. Pay only per delivered event.",
       "categories": [
-        "AI",
         "AUTOMATION",
         "BUSINESS"
       ],
@@ -456,7 +401,6 @@
       "url": "https://apify.com/plym-actor-factory/france-bodacc-siren-portfolio-monitor",
       "description": "Get alerted when a French company on your list appears in the official BODACC gazette: insolvency proceedings (redressement, liquidation), closure (radiation), business sale (cession) or a registered change. Enter SIREN numbers and schedule daily. Official DILA open data, no API key.",
       "categories": [
-        "AI",
         "AUTOMATION",
         "BUSINESS"
       ],
@@ -480,7 +424,6 @@
       "url": "https://apify.com/plym-actor-factory/eu-esma-mica-casp-lei-portfolio-status-monitor",
       "description": "Watch crypto-asset service providers by LEI in ESMA's official interim MiCA CASP register. Get an alert when a CASP is authorised, withdrawn, added, dropped or its details change. Pay only per delivered event.",
       "categories": [
-        "AI",
         "AUTOMATION",
         "BUSINESS"
       ],
@@ -504,7 +447,6 @@
       "url": "https://apify.com/plym-actor-factory/netherlands-kvk-status-event-monitor",
       "description": "Get alerted when a Dutch BV or NV on your list goes insolvent or changes active status, using free official KvK open data. Enter KvK numbers and schedule daily. For credit control and supplier risk. No API key.",
       "categories": [
-        "AI",
         "AUTOMATION",
         "BUSINESS"
       ],
@@ -528,7 +470,6 @@
       "url": "https://apify.com/plym-actor-factory/norway-brreg-orgnr-portfolio-monitor",
       "description": "Watch Norwegian companies by organisation number in the official Brreg Enhetsregisteret. Get an alert on konkurs (bankruptcy), liquidation, deletion, name or address change. Pay only per delivered event.",
       "categories": [
-        "AI",
         "AUTOMATION",
         "BUSINESS"
       ],
@@ -547,12 +488,57 @@
       }
     },
     {
+      "name": "eu-epc-sepa-sct-bic-portfolio-status-monitor",
+      "title": "SEPA Credit Transfer (SCT) Participant Monitor by BIC",
+      "url": "https://apify.com/plym-actor-factory/eu-epc-sepa-sct-bic-portfolio-status-monitor",
+      "description": "Watch EPC SEPA Credit Transfer (SCT) participant BICs; emit APPEARED/DROPPED/LEAVING_CHANGED/OPTIONS_CHANGED and attribute events from the official EPC SCT Register of Participants CSV. Not a VOP twin; not an EBA PSD2 twin; not an IBAN validator; not a full SCT dump billed as rows.",
+      "categories": [
+        "AUTOMATION",
+        "BUSINESS"
+      ],
+      "group": "European Union & wider Europe",
+      "pricing": {
+        "model": "PAY_PER_EVENT",
+        "events": [
+          {
+            "event": "epc-sepa-sct-status-event-delivered",
+            "title": "EPC SEPA SCT status event delivered",
+            "priceUsd": 0.02,
+            "primary": true
+          }
+        ],
+        "startUsd": 5e-05
+      }
+    },
+    {
+      "name": "eu-epc-sepa-vop-bic-portfolio-status-monitor",
+      "title": "SEPA Verification of Payee (VOP) Participant Monitor by BIC",
+      "url": "https://apify.com/plym-actor-factory/eu-epc-sepa-vop-bic-portfolio-status-monitor",
+      "description": "Watch EPC SEPA Verification of Payee (VOP) participant BICs; emit APPEARED/DROPPED/STATUS_CHANGED/ROLE_CHANGED/LEAVING_CHANGED and attribute events from the official EPC VOP Register of Participants CSV. Not an EBA PSD2 twin; not an IBAN validator; not a full VOP dump billed as rows.",
+      "categories": [
+        "AUTOMATION",
+        "BUSINESS"
+      ],
+      "group": "European Union & wider Europe",
+      "pricing": {
+        "model": "PAY_PER_EVENT",
+        "events": [
+          {
+            "event": "epc-sepa-vop-status-event-delivered",
+            "title": "EPC SEPA VOP status event delivered",
+            "priceUsd": 0.02,
+            "primary": true
+          }
+        ],
+        "startUsd": 5e-05
+      }
+    },
+    {
       "name": "spain-borme-nif-portfolio-monitor",
       "title": "Spain BORME Alerts: Insolvency, Dissolution & Director Changes",
       "url": "https://apify.com/plym-actor-factory/spain-borme-nif-portfolio-monitor",
       "description": "Get alerted when a Spanish company on your list appears in the official BORME gazette: insolvency (concurso), dissolution, director appointments and resignations, capital changes. Enter NIFs and company names and schedule daily. Official BOE open data, no API key.",
       "categories": [
-        "AI",
         "AUTOMATION",
         "BUSINESS"
       ],
@@ -576,7 +562,6 @@
       "url": "https://apify.com/plym-actor-factory/switzerland-shab-uid-portfolio-monitor",
       "description": "Watch Swiss companies by CHE UID in the official SHAB/SOGC gazette (Amtsblattportal). Get an alert on bankruptcy, deletion, new registration or modification. Pay only per delivered event.",
       "categories": [
-        "AI",
         "AUTOMATION",
         "BUSINESS"
       ],
@@ -600,8 +585,8 @@
       "url": "https://apify.com/plym-actor-factory/dach-supplier-kyb-packet",
       "description": "Check German, Austrian and Swiss suppliers from their website: legal name and address from the Impressum, a live EU VIES VAT number check and a German insolvency notice flag, in one row per supplier. For vendor onboarding and AP checks. No API key.",
       "categories": [
-        "AI",
-        "AUTOMATION"
+        "AUTOMATION",
+        "BUSINESS"
       ],
       "group": "Cross-border KYB & finance",
       "pricing": {
@@ -623,7 +608,6 @@
       "url": "https://apify.com/plym-actor-factory/gleif-lei-portfolio-watch",
       "description": "LEI monitoring for regulatory-reporting, treasury and onboarding teams: watch counterparty LEIs and get events when an LEI lapses, is retired or annulled, the entity goes inactive, the legal name or address changes, or parent relationships change. Free official GLEIF API, no key.",
       "categories": [
-        "AI",
         "AUTOMATION",
         "BUSINESS"
       ],
@@ -647,7 +631,6 @@
       "url": "https://apify.com/plym-actor-factory/poland-supplier-kyb-packet",
       "description": "Supplier verification for AP, treasury and procurement teams paying Polish suppliers: per NIP, one KYB packet with official MF VAT White List status, bank account verification (accountAssigned) with requestId audit proof, a KRZ insolvency signal and mismatch events. No API key.",
       "categories": [
-        "AI",
         "AUTOMATION",
         "BUSINESS"
       ],
@@ -724,7 +707,10 @@
       "title": "College Scorecard Operating Status Monitor (UNITID/OPEID)",
       "url": "https://apify.com/plym-actor-factory/us-college-scorecard-operating-portfolio-monitor",
       "description": "Higher-ed operating-status monitoring for lenders, guaranty agencies, edtech and compliance teams: watch IPEDS UNITIDs/OPEIDs and get events when College Scorecard shows a school open↔closed or ownership change. Not an outcomes/earnings dump; not Title IV PEPS; portfolio PPE only.",
-      "categories": [],
+      "categories": [
+        "AUTOMATION",
+        "BUSINESS"
+      ],
       "group": "United States – federal",
       "pricing": {
         "model": "PAY_PER_EVENT",
@@ -744,7 +730,10 @@
       "title": "CT Real Estate Salesperson License Monitor (DCP)",
       "url": "https://apify.com/plym-actor-factory/us-ct-dcp-res-credential-number-portfolio-status-monitor",
       "description": "Watch Connecticut DCP Real Estate Salesperson credentials for brokerages, title companies and lenders: ACTIVE/INACTIVE/SUSPENDED/REVOKED flips and supervising-broker changes from official data.ct.gov. Portfolio PPE — not a statewide dump or multi-state realtor scraper.",
-      "categories": [],
+      "categories": [
+        "AUTOMATION",
+        "BUSINESS"
+      ],
       "group": "United States – federal",
       "pricing": {
         "model": "PAY_PER_EVENT",
@@ -761,11 +750,10 @@
     },
     {
       "name": "us-de-pol-license-no-portfolio-status-monitor",
-      "title": "DE POL License No Portfolio Status Monitor",
+      "title": "Delaware Professional License Monitor: Status Change Alerts",
       "url": "https://apify.com/plym-actor-factory/us-de-pol-license-no-portfolio-status-monitor",
       "description": "Watch named Delaware POL license_no values; emit APPEARED/DROPPED/STATUS_CHANGED and attribute events from official data.delaware.gov Socrata pjnv-eaih. Portfolio PPE only — not a statewide dump billed as rows; not a WA DOH / NYC DCWP / TX TABC / IL IDFPR twin.",
       "categories": [
-        "AI",
         "AUTOMATION",
         "BUSINESS"
       ],
@@ -789,7 +777,6 @@
       "url": "https://apify.com/plym-actor-factory/us-epa-ghgrp-facility-status-monitor",
       "description": "Watch US greenhouse-gas reporting facilities by EPA GHGRP facility ID. Get an alert when a facility stops or resumes reporting, a reporting year appears or drops, or its parent company changes. Official EPA Envirofacts data; pay only per delivered change.",
       "categories": [
-        "AI",
         "AUTOMATION",
         "BUSINESS"
       ],
@@ -813,7 +800,6 @@
       "url": "https://apify.com/plym-actor-factory/us-epa-ppis-registration-number-status-monitor",
       "description": "Watch EPA pesticide product Registration Numbers against the official weekly EPA PPIS file. Get an alert when a product is cancelled, returns to active, appears or drops, or its signal word / restricted-use status changes. Pay only per delivered change.",
       "categories": [
-        "AI",
         "AUTOMATION",
         "BUSINESS"
       ],
@@ -837,7 +823,7 @@
       "url": "https://apify.com/plym-actor-factory/us-epa-sdwis-pwsid-portfolio-status-monitor",
       "description": "Watch EPA Public Water System IDs (PWSIDs) in SDWIS. Get an alert when a system activates, deactivates or changes activity status. Pay only per delivered change.",
       "categories": [
-        "AI",
+        "AUTOMATION",
         "BUSINESS"
       ],
       "group": "United States – federal",
@@ -860,7 +846,6 @@
       "url": "https://apify.com/plym-actor-factory/us-epa-tsca-inventory-casrn-status-monitor",
       "description": "Watch your chemicals by CAS Registry Number on the official EPA TSCA Inventory. Get an alert when a substance flips ACTIVE/INACTIVE, its regulatory flag changes, or it appears or drops from the non-CBI list. Pay only per delivered change.",
       "categories": [
-        "AI",
         "AUTOMATION",
         "BUSINESS"
       ],
@@ -884,7 +869,6 @@
       "url": "https://apify.com/plym-actor-factory/us-fda-accessgudid-di-status-monitor",
       "description": "Watch your medical device UDIs (Primary DIs) in FDA's GUDID via NLM AccessGUDID. Get an alert when a device leaves or returns to commercial distribution, its record status changes, or it appears or drops. Pay only per delivered change.",
       "categories": [
-        "AI",
         "AUTOMATION",
         "BUSINESS"
       ],
@@ -908,7 +892,6 @@
       "url": "https://apify.com/plym-actor-factory/fmcsa-safer-risk-event-monitor",
       "description": "Carrier monitoring for freight brokers, 3PLs and shippers: watch your USDOT numbers and get events when FMCSA data shows an insurance cancellation, authority revoked or suspended, an out-of-service order, a safety rating change, SMS alerts or a stale MCS-150. Official FMCSA data, no key.",
       "categories": [
-        "AI",
         "AUTOMATION",
         "LEAD_GENERATION"
       ],
@@ -934,11 +917,10 @@
     },
     {
       "name": "h1b-lca-employer-filing-watchlist",
-      "title": "H-1B LCA Employer New-Filing Watchlist (honest quarterly lag)",
+      "title": "H-1B LCA Employer New-Filing Watchlist (Quarterly Data)",
       "url": "https://apify.com/plym-actor-factory/h1b-lca-employer-filing-watchlist",
       "description": "Watch a list of employers (names or FEINs) and emit typed LCA_NEW_FILING events when new cases appear in official DOL OFLC public disclosure Excel/open data. Honest quarterly lag — not a full H-1B salary dump, not myvisajobs HTML.",
       "categories": [
-        "AI",
         "AUTOMATION",
         "JOBS"
       ],
@@ -962,7 +944,6 @@
       "url": "https://apify.com/plym-actor-factory/us-cms-ppef-npi-portfolio-enrollment-monitor",
       "description": "Get alerted when a healthcare provider on your NPI list is dropped from or added to Medicare fee-for-service enrollment, or changes provider type or enrollment ID. For credentialing and payer-network teams. Official CMS data.cms.gov data, no API key.",
       "categories": [
-        "AI",
         "AUTOMATION",
         "BUSINESS"
       ],
@@ -986,7 +967,6 @@
       "url": "https://apify.com/plym-actor-factory/us-md-montgomery-housing-licensenumber-portfolio-status-monitor",
       "description": "Watch named Montgomery County MD housing licensenumber values; emit APPEARED/DROPPED/STATUS_CHANGED from official Socrata et5s-xste. Portfolio PPE only — not a citywide dump; not NYC DOB/DCWP/DE POL/WA DOH/Calgary twin; not STR lead scraper.",
       "categories": [
-        "AI",
         "AUTOMATION",
         "BUSINESS"
       ],
@@ -1010,7 +990,6 @@
       "url": "https://apify.com/plym-actor-factory/us-msha-mine-id-status-monitor",
       "description": "Watch MSHA Mine IDs and emit typed ACTIVE/STATUS_CHANGED/ABANDONED_OR_NONPRODUCING/CONTROLLER_CHANGED/OPERATOR_CHANGED/REAPPEARED events from the official MSHA Open Government Data Mines.zip register. Not a nationwide mine/violation dump; not OSHA twin; not unpaid mining SaaS.",
       "categories": [
-        "AI",
         "AUTOMATION",
         "BUSINESS"
       ],
@@ -1030,11 +1009,10 @@
     },
     {
       "name": "us-la-nola-occupational-numstring-portfolio-status-monitor",
-      "title": "NOLA Occupational License Portfolio Status Monitor",
+      "title": "New Orleans Occupational License Monitor: Status Alerts",
       "url": "https://apify.com/plym-actor-factory/us-la-nola-occupational-numstring-portfolio-status-monitor",
       "description": "Watch named City of New Orleans occupational business license numstring values; emit APPEARED/DROPPED/STATUS_CHANGED from official Socrata abc4-h3u3. Portfolio PPE only — not a citywide dump; not Calgary/Montgomery/NYC DOB/DCWP twin; not STR lead scraper.",
       "categories": [
-        "AI",
         "AUTOMATION",
         "BUSINESS"
       ],
@@ -1058,7 +1036,6 @@
       "url": "https://apify.com/plym-actor-factory/us-ny-ocfs-childcare-facility-id-portfolio-status-monitor",
       "description": "Watch named NYS OCFS Child Care Regulated Programs facility_id values; emit APPEARED/DROPPED/STATUS_CHANGED from official data.ny.gov Socrata cb42-qumz. Portfolio PPE only — not a statewide dump; not NYC DOHMH dsg6-ifza twin; not a daycare lead scraper.",
       "categories": [
-        "AI",
         "AUTOMATION",
         "BUSINESS"
       ],
@@ -1082,7 +1059,6 @@
       "url": "https://apify.com/plym-actor-factory/us-nyc-dcwp-license-nbr-portfolio-status-monitor",
       "description": "Watch NYC DCWP/DCA license numbers from official NYC Open Data. Get an alert when primary status flips Active/Suspended/Revoked/Expired or key attributes change. Pay only per delivered change.",
       "categories": [
-        "AI",
         "AUTOMATION",
         "BUSINESS"
       ],
@@ -1106,7 +1082,6 @@
       "url": "https://apify.com/plym-actor-factory/us-nyc-dob-license-sl-no-portfolio-status-monitor",
       "description": "Watch NYC Department of Buildings license_sl_no values from official open data. Get an alert when status flips ACTIVE/EXPIRED/SURRENDERED/REVOKED/SUSPENDED. Pay only per delivered change.",
       "categories": [
-        "AI",
         "AUTOMATION",
         "BUSINESS"
       ],
@@ -1129,7 +1104,10 @@
       "title": "PCAOB Registered Audit Firm Portfolio Status Monitor",
       "url": "https://apify.com/plym-actor-factory/us-pcaob-registered-firm-id-portfolio-status-monitor",
       "description": "Watch named PCAOB-registered audit firms by Firm ID; get an event when registration becomes Withdrawal Pending, Withdrawn, Revoked or Disapproved, or the firm name changes, from the official PCAOB daily firm file. Pay per delivered change - not a firm-list dump.",
-      "categories": [],
+      "categories": [
+        "AUTOMATION",
+        "BUSINESS"
+      ],
       "group": "United States – federal",
       "pricing": {
         "model": "PAY_PER_EVENT",
@@ -1150,7 +1128,6 @@
       "url": "https://apify.com/plym-actor-factory/us-pa-philly-li-licensenum-portfolio-status-monitor",
       "description": "Watch named City of Philadelphia L&I business license licensenum values; emit APPEARED/DROPPED/STATUS_CHANGED from official OpenDataPhilly CARTO li_business_licenses. Portfolio PPE only — not a citywide dump; not Calgary/Montgomery/NYC DOB/DCWP/NOLA twin; not Philly building-permit lead scraper.",
       "categories": [
-        "AI",
         "AUTOMATION",
         "BUSINESS"
       ],
@@ -1197,7 +1174,6 @@
       "url": "https://apify.com/plym-actor-factory/us-energy-star-pd-id-portfolio-monitor",
       "description": "Watch ENERGY STAR Unique IDs (pd_id) and emit typed APPEARED/DROPPED/MOST_EFFICIENT events from the official EPA ENERGY STAR Model Index Socrata. Not Safer Choice twin; not TRI facility twin; not flat dump billed as rows; not unpaid energy SaaS.",
       "categories": [
-        "AI",
         "AUTOMATION",
         "BUSINESS"
       ],
@@ -1221,7 +1197,6 @@
       "url": "https://apify.com/plym-actor-factory/us-epa-safer-choice-portfolio-monitor",
       "description": "Watch Safer Choice products/companies (UPC/GTIN, company_name, product_url) and emit typed APPEARED/DROPPED/GOOD_STANDING events from the official EPA Envirofacts Safer Choice table. Not TRI facility twin; not ECHO compliance; not flat dump billed as rows; not unpaid ecolabel SaaS.",
       "categories": [
-        "AI",
         "AUTOMATION",
         "BUSINESS"
       ],
@@ -1245,7 +1220,6 @@
       "url": "https://apify.com/plym-actor-factory/us-epa-tri-facility-portfolio-status-monitor",
       "description": "Watch TRI Facility IDs and emit typed APPEARED/DROPPED/NAME_CHANGED/PARENT_CHANGED/ADDRESS_CHANGED events from the official EPA Envirofacts tri_facility JSON API. Not ECHO compliance/violation scrape; not statewide TRI dump; not unpaid ESG SaaS.",
       "categories": [
-        "AI",
         "AUTOMATION",
         "BUSINESS"
       ],
@@ -1269,7 +1243,6 @@
       "url": "https://apify.com/plym-actor-factory/us-hrsa-health-center-site-monitor",
       "description": "Watch Health Center Numbers and/or BPHC site keys and emit typed Active/Inactive/type/location-setting events from the official HRSA data.hrsa.gov Health Center Service Delivery and Look-Alike Sites CSV. Not EHBs portal scrape; not unpaid 340B OPAIS; not NPPES/PPEF twin.",
       "categories": [
-        "AI",
         "AUTOMATION",
         "BUSINESS"
       ],
@@ -1293,7 +1266,6 @@
       "url": "https://apify.com/plym-actor-factory/us-lda-lobbying-filing-watchlist",
       "description": "Watch lobbying client and/or registrant firm names; poll the official Senate LDA REST API (lda.gov); emit typed events only for new filing_uuid values for your book. Not an LDA dump; not Quorum/FiscalNote; not HTML scrape.",
       "categories": [
-        "AI",
         "AUTOMATION",
         "BUSINESS"
       ],
@@ -1317,7 +1289,6 @@
       "url": "https://apify.com/plym-actor-factory/us-fsis-mpi-est-status-monitor",
       "description": "Watch FSIS establishment numbers and emit typed APPEARED/DROPPED_OR_INACTIVE/ACTIVITIES_CHANGED/SIZE_CHANGED/GRANT_DATE_CHANGED events from the official USDA FSIS MPI Directory JSON API/CSV. Not nationwide leads dump; not recall feed; not HTML scrape.",
       "categories": [
-        "AI",
         "AUTOMATION",
         "BUSINESS"
       ],
@@ -1341,7 +1312,6 @@
       "url": "https://apify.com/plym-actor-factory/us-usda-snap-record-id-authorization-status-monitor",
       "description": "Watch USDA SNAP retailer Record_IDs and emit typed AUTHORIZED/ENDED/APPEARED/DROPPED events from the official FNS SNAP ArcGIS FeatureServer. Pay only for unique authorization status events on your book — not a SNAP leads dump billed as rows.",
       "categories": [
-        "AI",
         "AUTOMATION",
         "BUSINESS"
       ],
@@ -1365,7 +1335,6 @@
       "url": "https://apify.com/plym-actor-factory/us-wa-doh-credential-number-portfolio-status-monitor",
       "description": "Watch Washington DOH healthcare credential numbers from official data.wa.gov. Get an alert when status flips Active/Suspended/Revoked/Expired or the credential appears or drops. Pay only per delivered change.",
       "categories": [
-        "AI",
         "AUTOMATION",
         "BUSINESS"
       ],
@@ -1412,7 +1381,6 @@
       "url": "https://apify.com/plym-actor-factory/us-carb-lcfs-fuel-pathway-status-monitor",
       "description": "Watch California LCFS fuel pathway IDs in CARB's official Current Fuel Pathways list. Get an alert when a pathway is certified, retired, added, dropped or its carbon intensity (CI) changes. Pay per event.",
       "categories": [
-        "AI",
         "AUTOMATION",
         "BUSINESS"
       ],
@@ -1435,7 +1403,10 @@
       "title": "Colorado Charity Monitor: CDOS Status & Notice Alerts",
       "url": "https://apify.com/plym-actor-factory/us-co-sos-charity-registration-portfolio-status-monitor",
       "description": "Watch Colorado-registered charities, paid solicitors and fundraising consultants by SOS entity ID; get an event when status moves from GOOD to NOTICE, WITHDRAWN, REVOKED or DENIED, or the name changes, from the official CDOS dataset. Pay per change.",
-      "categories": [],
+      "categories": [
+        "AUTOMATION",
+        "BUSINESS"
+      ],
       "group": "United States – state",
       "pricing": {
         "model": "PAY_PER_EVENT",
@@ -1479,7 +1450,6 @@
       "url": "https://apify.com/plym-actor-factory/us-tx-tabc-license-id-portfolio-status-monitor",
       "description": "Watch Texas TABC license IDs from official data.texas.gov. Get an alert when primary status flips Active/Suspended/Surrendered or key attributes change. Pay only per delivered change.",
       "categories": [
-        "AI",
         "AUTOMATION",
         "BUSINESS"
       ],
@@ -1503,7 +1473,6 @@
       "url": "https://apify.com/plym-actor-factory/us-wa-boa-cpa-credential-number-portfolio-status-monitor",
       "description": "Get alerted when a Washington State CPA on your list lapses, retires, goes inactive, is suspended or revoked, or gets a board order. Enter Board of Accountancy credential numbers and schedule daily. Official data.wa.gov data, no API key.",
       "categories": [
-        "AI",
         "AUTOMATION",
         "BUSINESS"
       ],
@@ -1527,7 +1496,6 @@
       "url": "https://apify.com/plym-actor-factory/ca-calgary-getbusid-portfolio-status-monitor",
       "description": "Watch named City of Calgary business licences (getbusid) in official data.calgary.ca open data. Get an alert when a licence appears, drops off or changes status, e.g. Licensed to Pending Renewal. Pay per event.",
       "categories": [
-        "AI",
         "AUTOMATION",
         "BUSINESS"
       ],
@@ -1550,7 +1518,10 @@
       "title": "Canada Aircraft Mark Monitor: CCAR Status & Sale Alerts",
       "url": "https://apify.com/plym-actor-factory/ca-tc-ccar-aircraft-mark-portfolio-status-monitor",
       "description": "Watch Canadian aircraft by registration mark (C-XXXX); get an event when registration is cancelled or expires, a sale is reported or the owner changes, from the official Transport Canada CCAR daily file. Pay per change.",
-      "categories": [],
+      "categories": [
+        "AUTOMATION",
+        "BUSINESS"
+      ],
       "group": "Canada",
       "pricing": {
         "model": "PAY_PER_EVENT",
@@ -1571,7 +1542,6 @@
       "url": "https://apify.com/plym-actor-factory/canada-federal-corp-status-monitor",
       "description": "Watch federal corporation numbers / BNs and emit typed status & name change events from the free official ISED Corporations Canada API. Not Equifax. Not a nationwide dump.",
       "categories": [
-        "AI",
         "AUTOMATION",
         "BUSINESS"
       ],
@@ -1595,7 +1565,7 @@
       "url": "https://apify.com/plym-actor-factory/ca-fintrac-msb-registration-number-portfolio-status-monitor",
       "description": "Watch FINTRAC money-services-business registration numbers from the official public list. Get an alert when registration status changes. Pay only per delivered change.",
       "categories": [
-        "AI",
+        "AUTOMATION",
         "BUSINESS"
       ],
       "group": "Canada",
@@ -1618,7 +1588,6 @@
       "url": "https://apify.com/plym-actor-factory/ca-ised-sms-tafl-authorization-portfolio-status-monitor",
       "description": "Watch Canada ISED SMS TAFL authorization numbers for appear/drop and authorization status changes from the official spectrum register. Pay only per delivered change.",
       "categories": [
-        "AI",
         "AUTOMATION",
         "BUSINESS"
       ],
@@ -1642,7 +1611,6 @@
       "url": "https://apify.com/plym-actor-factory/ca-osfi-frfi-who-we-regulate-portfolio-status-monitor",
       "description": "Watch OSFI-regulated Canadian banks, insurers and trust companies in the official monthly Who We Regulate list. Get an alert when an institution appears, drops off or changes classification. Pay per change.",
       "categories": [
-        "AI",
         "AUTOMATION",
         "BUSINESS"
       ],
@@ -1666,7 +1634,6 @@
       "url": "https://apify.com/plym-actor-factory/ca-pmra-registration-number-portfolio-status-monitor",
       "description": "Watch Canada PMRA PCP Registration Numbers; emit FULL_REGISTRATION/CANCELLED/APPEARED/DROPPED/STATUS_CHANGED/EXPIRY_CHANGED from official product extract CSV. PPE on unique events — not EPA PPIS / HC DPD / CFIA SFCR twin billed as rows.",
       "categories": [
-        "AI",
         "AUTOMATION",
         "BUSINESS"
       ],
@@ -1690,7 +1657,6 @@
       "url": "https://apify.com/plym-actor-factory/ca-cfia-sfcr-licence-portfolio-monitor",
       "description": "Watch CFIA SFCR food licence numbers for appear/drop, establishment and DBA changes from the official Safe Food for Canadians register. Pay only per delivered change.",
       "categories": [
-        "AI",
         "AUTOMATION",
         "BUSINESS"
       ],
@@ -1714,7 +1680,6 @@
       "url": "https://apify.com/plym-actor-factory/ca-hc-dpd-din-portfolio-status-monitor",
       "description": "Watch Drug Identification Numbers (DIN) and emit typed Marketed/Cancelled/Dormant/Approved/company events from the official Health Canada Drug Product Database (DPD) API. Not a flat DPD dump; not recalls; not openFDA; not unpaid formulary SaaS.",
       "categories": [
-        "AI",
         "AUTOMATION",
         "BUSINESS"
       ],
@@ -1738,7 +1703,6 @@
       "url": "https://apify.com/plym-actor-factory/ca-hc-nhp-npn-portfolio-status-monitor",
       "description": "Watch Natural Product Numbers (NPN / DIN-HM) and emit typed ACTIVE/INACTIVE/company events from the official Health Canada LNHPD Product Licence API. Not a DPD DIN twin; not PMRA; not a national LNHPD dump billed as rows; not openFDA.",
       "categories": [
-        "AI",
         "AUTOMATION",
         "BUSINESS"
       ],
@@ -1762,7 +1726,6 @@
       "url": "https://apify.com/plym-actor-factory/au-acma-licence-portfolio-monitor",
       "description": "Watch ACMA radiocommunications LICENCE_NO values and emit typed Granted/status/expiry/category/client events from the official Spectrum Licensing LicenceSearchJSON API (optional RRL extracts). Not FCC ULS (US); not a nationwide RRL dump billed as rows; not unpaid spectrum SaaS scrape.",
       "categories": [
-        "AI",
         "AUTOMATION",
         "BUSINESS"
       ],
@@ -1785,7 +1748,10 @@
       "title": "ACT COLA Licence Monitor: Access Canberra Status Alerts",
       "url": "https://apify.com/plym-actor-factory/au-act-cola-licence-number-portfolio-status-monitor",
       "description": "Watch ACT Access Canberra COLA licence numbers for Active/Expired/Suspended/Cancelled status and occupation changes from the official List of Professionals open dataset. Pay per change. Personal names never output.",
-      "categories": [],
+      "categories": [
+        "AUTOMATION",
+        "BUSINESS"
+      ],
       "group": "Australia",
       "pricing": {
         "model": "PAY_PER_EVENT",
@@ -1806,7 +1772,6 @@
       "url": "https://apify.com/plym-actor-factory/au-asic-credit-licence-number-portfolio-status-monitor",
       "description": "Watch ASIC Credit Licence Numbers for approval/suspension status, name and authorisation changes from the official ASIC register. Pay only per delivered change.",
       "categories": [
-        "AI",
         "AUTOMATION",
         "BUSINESS"
       ],
@@ -1830,7 +1795,6 @@
       "url": "https://apify.com/plym-actor-factory/australia-abn-status-portfolio-monitor",
       "description": "Get alerted when an Australian business on your list has its ABN cancelled, its GST registration changed, or its entity name or type changed, from the official Australian Business Register (ABR). Enter ABNs and schedule daily. For AP and supplier checks.",
       "categories": [
-        "AI",
         "AUTOMATION",
         "BUSINESS"
       ],
@@ -1877,7 +1841,6 @@
       "url": "https://apify.com/plym-actor-factory/au-asic-financial-adviser-number-portfolio-status-monitor",
       "description": "Watch named ASIC Financial Advisers Register adviser numbers; emit registration status, banning/disciplinary, CPD-failure and AFSL authorisation added/ceased events from the official ASIC Financial Advisers Dataset (data.gov.au). Portfolio PPE only - not a FAR dump.",
       "categories": [
-        "AI",
         "AUTOMATION",
         "BUSINESS"
       ],
@@ -1901,7 +1864,6 @@
       "url": "https://apify.com/plym-actor-factory/au-casa-reg-mark-portfolio-status-monitor",
       "description": "Watch Australian VH aircraft marks for insurers, lessors and MROs: alerts when CASA shows suspension, deregistration, full-registration return, or holder/operator changes from the official daily register. Portfolio PPE — not an FAA N-Number twin or national dump.",
       "categories": [
-        "AI",
         "AUTOMATION",
         "BUSINESS"
       ],
@@ -1925,7 +1887,6 @@
       "url": "https://apify.com/plym-actor-factory/au-qld-ea-permit-reference-portfolio-status-monitor",
       "description": "Watch Queensland Environmental Authority Permit References for appear/drop and status changes from official DESI open data. Pay only per delivered change.",
       "categories": [
-        "AI",
         "AUTOMATION",
         "BUSINESS"
       ],
@@ -1949,7 +1910,6 @@
       "url": "https://apify.com/plym-actor-factory/au-qld-enforcement-reference-portfolio-status-monitor",
       "description": "Watch Queensland DESI Environmental Enforcement Action References for appear/drop and status changes from official open data. Pay only per delivered change.",
       "categories": [
-        "AI",
         "AUTOMATION",
         "BUSINESS"
       ],
@@ -1973,7 +1933,6 @@
       "url": "https://apify.com/plym-actor-factory/brazil-cnpj-situacao-change-monitor",
       "description": "Get alerted when a Brazilian company on your CNPJ list changes registration status (situação cadastral: ativa, baixada, inapta, suspensa) or other key Receita Federal fields. Uses official Receita Federal open data, updated monthly.",
       "categories": [
-        "AI",
         "AUTOMATION",
         "LEAD_GENERATION"
       ],
@@ -1997,7 +1956,6 @@
       "url": "https://apify.com/plym-actor-factory/lookalike-ct-brand-abuse-monitor",
       "description": "Generate lookalikes (dnstwist-class, in-process) for brand apexes, join public CT via crt.sh, and emit LOOKALIKE_CERT_ISSUED events when a lookalike gets a new TLS cert. Not a TLS dump; not dnstwist-only.",
       "categories": [
-        "AI",
         "AUTOMATION",
         "DEVELOPER_TOOLS"
       ],
@@ -2049,7 +2007,10 @@
       "title": "IANA Registrar ID Monitor: Accreditation Status Alerts",
       "url": "https://apify.com/plym-actor-factory/iana-icann-registrar-id-portfolio-status-monitor",
       "description": "Watch IANA Registrar IDs for registries and brand-protection teams: Accredited/Terminated/Reserved flips plus name/RDAP URL changes from the official registrar-ids CSV. Not a WHOIS/RDAP domain lookup; not a full IANA dump.",
-      "categories": [],
+      "categories": [
+        "AUTOMATION",
+        "BUSINESS"
+      ],
       "group": "Other",
       "pricing": {
         "model": "PAY_PER_EVENT",
@@ -2070,7 +2031,6 @@
       "url": "https://apify.com/plym-actor-factory/icann-gtld-registry-operator-portfolio-status-monitor",
       "description": "Watch ICANN gTLD strings for registry-operator / contract portfolio status changes from the official gtlds.json feed (DELEGATED, CONTRACT_TERMINATED, REMOVED). Not an IANA Registrar ID twin; not a WHOIS/zone-file domain twin; not a full gTLD dump billed as rows.",
       "categories": [
-        "AI",
         "AUTOMATION",
         "BUSINESS"
       ],
@@ -2123,7 +2083,6 @@
       "url": "https://apify.com/plym-actor-factory/nz-charities-register-cc-number-portfolio-status-monitor",
       "description": "Watch named New Zealand Charities Register CC numbers; emit Registered/Deregistered/Removed status events (with deregistration date + reason) and register notices from official Charities Services open data. Portfolio PPE only - not a register dump.",
       "categories": [
-        "AI",
         "AUTOMATION",
         "BUSINESS"
       ],
@@ -2147,7 +2106,6 @@
       "url": "https://apify.com/plym-actor-factory/ch-swissmedic-zulassungsnummer-portfolio-status-monitor",
       "description": "Watch Swissmedic Zulassungsnummer on the official HAM authorized-medicines list. Get an alert when authorization turns on/off or a number appears or drops. Pay only per delivered change.",
       "categories": [
-        "AI",
         "AUTOMATION",
         "BUSINESS"
       ],
@@ -2171,7 +2129,6 @@
       "url": "https://apify.com/plym-actor-factory/who-pq-fpp-reference-number-portfolio-status-monitor",
       "description": "Watch WHO Prequalification Finished Pharmaceutical Product (FPP) reference numbers on the official PQ list. Get an alert when a product appears, drops or its listing basis changes. Pay only per delivered change.",
       "categories": [
-        "AI",
         "AUTOMATION",
         "BUSINESS"
       ],
